@@ -2,7 +2,6 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import {
   Menu,
-  X,
   ChevronLeft,
   ChevronRight,
   Leaf,
@@ -216,7 +215,7 @@ function Index() {
             aria-label="Toggle navigation"
             className="ml-auto text-primary-foreground lg:hidden"
           >
-            {menuOpen ? <Menu className="size-6" /> : <Menu className="size-6" />}
+            <Menu className="size-6" />
           </button>
         </div>
 
