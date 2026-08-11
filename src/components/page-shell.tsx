@@ -1,6 +1,9 @@
 import type { ReactNode } from "react";
+import { useQuery } from "@tanstack/react-query";
 import { SiteHeader } from "./site-header";
 import { SiteFooter } from "./site-footer";
+import { pageQuery, parseBody } from "@/lib/cms";
+
 
 export function Eyebrow({ children }: { children: ReactNode }) {
   return (
