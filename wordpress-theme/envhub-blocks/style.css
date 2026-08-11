@@ -1,0 +1,55 @@
+/*
+Theme Name: EnvHub Uganda Blocks
+Theme URI: https://envhub-ug.org/
+Author: Environmental Hub Uganda
+Description: Full site editing (block) theme for Environmental Hub Uganda. Every template, header, footer and page section is editable with the WordPress block editor. Includes patterns for the hero carousel-style banner, mission & vision, core activities, director's message, blog highlights, partners and calls to action.
+Version: 1.0.0
+Requires at least: 6.5
+Tested up to: 6.7
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: envhub-blocks
+Tags: full-site-editing, block-patterns, blog, one-column, custom-colors, custom-menu, editor-style, featured-images, threaded-comments, translation-ready
+*/
+
+/* Block themes get nearly all styling from theme.json. Only small extras live here. */
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.envhub-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+/* Card hover lift used by the pattern cards. */
+.is-style-envhub-card {
+  transition:
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.is-style-envhub-card:hover {
+  box-shadow: 0 12px 32px rgba(31, 50, 41, 0.12);
+  transform: translateY(-2px);
+}
+
+/* Left accent bar used for mission / vision blocks. */
+.is-style-envhub-bordered {
+  border-left: 4px solid var(--wp--preset--color--primary);
+}
+
+.is-style-envhub-bordered.has-accent-border {
+  border-left-color: var(--wp--preset--color--accent);
+}
+
+/* Cover images inside the hero keep a readable overlay. */
+.envhub-hero .wp-block-cover__inner-container {
+  max-width: 48rem;
+}
+
+.wp-block-navigation__responsive-container.is-menu-open {
+  background: var(--wp--preset--color--brand-dark);
+}
