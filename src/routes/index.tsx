@@ -107,6 +107,9 @@ function Index() {
 
       {/* Hero carousel */}
       <section className="relative h-[92vh] min-h-[560px] w-full overflow-hidden">
+        <h1 className="sr-only">
+          Environmental Hub Uganda — climate action, conservation and environmental research
+        </h1>
         {SLIDES.map((s, i) => (
           <div
             key={s.title}
@@ -126,9 +129,9 @@ function Index() {
             <div className="absolute inset-0 bg-[var(--brand-dark)]/65" />
             <div className="absolute inset-0 flex items-center">
               <div className="mx-auto max-w-3xl px-6 text-center">
-                <h1 className="text-3xl font-bold tracking-tight text-primary-foreground sm:text-5xl">
+                <h2 className="text-3xl font-bold tracking-tight text-primary-foreground sm:text-5xl">
                   {s.title}
-                </h1>
+                </h2>
                 <p className="mt-5 text-base leading-relaxed text-primary-foreground/85 sm:text-lg">
                   {s.text}
                 </p>
