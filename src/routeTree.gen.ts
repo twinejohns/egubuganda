@@ -23,6 +23,7 @@ import { Route as Char91DotwellKnownChar93OauthProtectedResourceRouteImport } fr
 import { Route as BlogIndexRouteImport } from './routes/blog.index'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 import { Route as Char91DotmcpChar93InvokeToolToolRouteImport } from './routes/[.mcp]/invoke-tool/$tool'
+import { Route as LovableEmailTransactionalPreviewRouteImport } from './routes/lovable/email/transactional/preview'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -97,6 +98,12 @@ const Char91DotmcpChar93InvokeToolToolRoute =
     path: '/.mcp/invoke-tool/$tool',
     getParentRoute: () => rootRouteImport,
   } as any)
+const LovableEmailTransactionalPreviewRoute =
+  LovableEmailTransactionalPreviewRouteImport.update({
+    id: '/lovable/email/transactional/preview',
+    path: '/lovable/email/transactional/preview',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -113,6 +120,7 @@ export interface FileRoutesByFullPath {
   '/blog/$slug': typeof BlogSlugRoute
   '/blog/': typeof BlogIndexRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
+  '/lovable/email/transactional/preview': typeof LovableEmailTransactionalPreviewRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -129,6 +137,7 @@ export interface FileRoutesByTo {
   '/blog/$slug': typeof BlogSlugRoute
   '/blog': typeof BlogIndexRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
+  '/lovable/email/transactional/preview': typeof LovableEmailTransactionalPreviewRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -146,6 +155,7 @@ export interface FileRoutesById {
   '/blog/$slug': typeof BlogSlugRoute
   '/blog/': typeof BlogIndexRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
+  '/lovable/email/transactional/preview': typeof LovableEmailTransactionalPreviewRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -164,6 +174,7 @@ export interface FileRouteTypes {
     | '/blog/$slug'
     | '/blog/'
     | '/.mcp/invoke-tool/$tool'
+    | '/lovable/email/transactional/preview'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -180,6 +191,7 @@ export interface FileRouteTypes {
     | '/blog/$slug'
     | '/blog'
     | '/.mcp/invoke-tool/$tool'
+    | '/lovable/email/transactional/preview'
   id:
     | '__root__'
     | '/'
@@ -196,6 +208,7 @@ export interface FileRouteTypes {
     | '/blog/$slug'
     | '/blog/'
     | '/.mcp/invoke-tool/$tool'
+    | '/lovable/email/transactional/preview'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -213,6 +226,7 @@ export interface RootRouteChildren {
   BlogSlugRoute: typeof BlogSlugRoute
   BlogIndexRoute: typeof BlogIndexRoute
   Char91DotmcpChar93InvokeToolToolRoute: typeof Char91DotmcpChar93InvokeToolToolRoute
+  LovableEmailTransactionalPreviewRoute: typeof LovableEmailTransactionalPreviewRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -315,6 +329,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char91DotmcpChar93InvokeToolToolRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/lovable/email/transactional/preview': {
+      id: '/lovable/email/transactional/preview'
+      path: '/lovable/email/transactional/preview'
+      fullPath: '/lovable/email/transactional/preview'
+      preLoaderRoute: typeof LovableEmailTransactionalPreviewRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -334,6 +355,7 @@ const rootRouteChildren: RootRouteChildren = {
   BlogSlugRoute: BlogSlugRoute,
   BlogIndexRoute: BlogIndexRoute,
   Char91DotmcpChar93InvokeToolToolRoute: Char91DotmcpChar93InvokeToolToolRoute,
+  LovableEmailTransactionalPreviewRoute: LovableEmailTransactionalPreviewRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
