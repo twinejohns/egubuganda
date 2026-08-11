@@ -18,7 +18,7 @@ import { postsQuery } from "@/lib/cms";
 import hero1 from "@/assets/hero-1.jpg";
 import hero2 from "@/assets/hero-2.jpg";
 import hero3 from "@/assets/hero-3.jpg";
-import director from "@/assets/director.jpg";
+import directorAsset from "@/assets/director-photo.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
