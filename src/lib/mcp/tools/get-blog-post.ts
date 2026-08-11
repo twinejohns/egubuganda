@@ -7,6 +7,7 @@ export default defineTool({
   title: "Get blog post",
   description: "Return the full text of a single blog article by its slug.",
   inputSchema: { slug: z.string().min(1).describe("Blog post slug, e.g. community-restoration-tree-planting.") },
+  outputSchema: { post: z.record(z.string(), z.unknown()) },
   annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
   handler: ({ slug }) => {
     const post = POSTS.find((p) => p.slug === slug.trim());

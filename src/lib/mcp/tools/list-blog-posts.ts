@@ -11,6 +11,7 @@ export default defineTool({
     tag: z.string().optional().describe("Filter by tag, e.g. Conservation, Education, Research, Innovation."),
     search: z.string().optional().describe("Free-text term matched against title and excerpt."),
   },
+  outputSchema: { posts: z.array(z.record(z.string(), z.unknown())) },
   annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
   handler: ({ tag, search }) => {
     const term = search?.trim().toLowerCase();

@@ -1,4 +1,5 @@
 import { defineTool } from "@lovable.dev/mcp-js";
+import { z } from "zod";
 import { ORGANISATION } from "../content";
 
 export default defineTool({
@@ -7,6 +8,7 @@ export default defineTool({
   description:
     "Return the public profile of Environmental Hub Uganda: legal status, mission, vision, core values, core activities and contact details.",
   inputSchema: {},
+  outputSchema: { organisation: z.record(z.string(), z.unknown()) },
   annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
   handler: () => ({
     content: [{ type: "text" as const, text: JSON.stringify(ORGANISATION, null, 2) }],
