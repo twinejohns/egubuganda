@@ -19,6 +19,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.is-style-envhub-eyebrow,
 .envhub-eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.2em;
