@@ -35,9 +35,13 @@ export function SiteHeader() {
     >
       <div className="mx-auto flex max-w-7xl items-center gap-4 px-4 py-3">
         <Link to="/" className="flex items-center gap-2 text-primary-foreground">
-          <span className="grid size-9 place-items-center rounded-full bg-primary">
-            <Leaf className="size-5 text-primary-foreground" />
-          </span>
+          <img
+            src={ehubLogo.url}
+            alt="Environmental Hub Uganda logo"
+            width={36}
+            height={36}
+            className="size-9 rounded-full object-contain"
+          />
           <span className="text-sm leading-tight font-semibold">
             Environmental Hub
             <br />
