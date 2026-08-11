@@ -47,7 +47,7 @@ function BlogPost() {
             })}
           </p>
           <div className="mt-6 space-y-5 text-[15px] leading-relaxed text-muted-foreground">
-            {post.body.map((para) => (
+            {post.body.map((para: string) => (
               <p key={para.slice(0, 40)}>{para}</p>
             ))}
           </div>
