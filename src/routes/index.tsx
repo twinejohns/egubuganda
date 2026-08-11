@@ -239,7 +239,7 @@ function Index() {
 
       {/* Director */}
       <Section>
-        <Eyebrow>Message from the Director</Eyebrow>
+        <Eyebrow>MESSAGE FROM THE TEAM LEAD</Eyebrow>
         <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
           Green greetings, dear esteemed environmentalists
         </h2>
@@ -254,7 +254,7 @@ function Index() {
               className="w-full rounded-lg object-cover shadow-xl"
             />
             <p className="mt-4 font-semibold">MUHUMURE RODRICK</p>
-            <p className="text-sm text-muted-foreground">Team Lead (Executive Director)</p>
+            <p className="text-sm text-muted-foreground">Team Lead</p>
           </div>
           <div className="space-y-4 text-[15px] leading-relaxed text-muted-foreground">
             <p>
