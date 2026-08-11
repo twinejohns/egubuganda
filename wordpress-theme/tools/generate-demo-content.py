@@ -39,8 +39,8 @@ def p(text, extra_class=None):
 
 def eyebrow(text):
     return (
-        '<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"green"} -->\n'
-        f'<p class="is-style-envhub-eyebrow has-green-color has-text-color">{escape(text)}</p>\n'
+        '<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->\n'
+        f'<p class="is-style-envhub-eyebrow has-primary-color has-text-color">{escape(text)}</p>\n'
         "<!-- /wp:paragraph -->"
     )
 
@@ -50,7 +50,7 @@ def ul(items):
     return f'<!-- wp:list -->\n<ul class="wp-block-list">\n{lis}\n</ul>\n<!-- /wp:list -->'
 
 
-def group(inner, bg=None, align="full", padding="var:preset|spacing|xl"):
+def group(inner, bg=None, align="full", padding="var:preset|spacing|60"):
     attrs = '{"align":"%s","style":{"spacing":{"padding":{"top":"%s","bottom":"%s"}}}%s}' % (
         align,
         padding,
@@ -120,16 +120,16 @@ def buttons(pairs):
 
 def cover(img, title, text, btns):
     inner = (
-        f'<!-- wp:heading {{"textAlign":"center","level":1,"style":{{"typography":{{"fontSize":"clamp(2rem,5vw,3.25rem)"}}}},"textColor":"white"}} -->\n'
-        f'<h1 class="wp-block-heading has-text-align-center has-white-color has-text-color" style="font-size:clamp(2rem,5vw,3.25rem)">{escape(title)}</h1>\n<!-- /wp:heading -->\n'
-        f'<!-- wp:paragraph {{"align":"center","textColor":"white"}} -->\n'
-        f'<p class="has-text-align-center has-white-color has-text-color">{escape(text)}</p>\n<!-- /wp:paragraph -->\n'
+        f'<!-- wp:heading {{"textAlign":"center","level":1,"style":{{"typography":{{"fontSize":"clamp(2rem,5vw,3.25rem)"}}}},"textColor":"base"}} -->\n'
+        f'<h1 class="wp-block-heading has-text-align-center has-base-color has-text-color" style="font-size:clamp(2rem,5vw,3.25rem)">{escape(title)}</h1>\n<!-- /wp:heading -->\n'
+        f'<!-- wp:paragraph {{"align":"center","textColor":"base"}} -->\n'
+        f'<p class="has-text-align-center has-base-color has-text-color">{escape(text)}</p>\n<!-- /wp:paragraph -->\n'
         + buttons(btns)
     )
     return (
-        f'<!-- wp:cover {{"url":"{SITE}{IMG}/{img}","dimRatio":65,"overlayColor":"forest","minHeight":72,"minHeightUnit":"vh","align":"full","layout":{{"type":"constrained"}}}} -->\n'
+        f'<!-- wp:cover {{"url":"{SITE}{IMG}/{img}","dimRatio":65,"overlayColor":"brand-dark","minHeight":72,"minHeightUnit":"vh","align":"full","layout":{{"type":"constrained"}}}} -->\n'
         f'<div class="wp-block-cover alignfull" style="min-height:72vh">'
-        f'<span aria-hidden="true" class="wp-block-cover__background has-forest-background-color has-background-dim-60 has-background-dim"></span>'
+        f'<span aria-hidden="true" class="wp-block-cover__background has-brand-dark-background-color has-background-dim-60 has-background-dim"></span>'
         f'<img class="wp-block-cover__image-background" alt="" src="{SITE}{IMG}/{img}" data-object-fit="cover"/>'
         f'<div class="wp-block-cover__inner-container">\n{inner}\n</div></div>\n<!-- /wp:cover -->'
     )
@@ -337,11 +337,11 @@ POSTS = [
 
 def page_header(title, lead):
     inner = (
-        f'<!-- wp:heading {{"level":1,"textColor":"white","style":{{"typography":{{"fontSize":"clamp(2rem,4vw,3rem)"}}}}}} -->\n'
-        f'<h1 class="wp-block-heading has-white-color has-text-color" style="font-size:clamp(2rem,4vw,3rem)">{escape(title)}</h1>\n<!-- /wp:heading -->\n'
-        f'<!-- wp:paragraph {{"textColor":"white"}} -->\n<p class="has-white-color has-text-color">{escape(lead)}</p>\n<!-- /wp:paragraph -->'
+        f'<!-- wp:heading {{"level":1,"textColor":"base","style":{{"typography":{{"fontSize":"clamp(2rem,4vw,3rem)"}}}}}} -->\n'
+        f'<h1 class="wp-block-heading has-base-color has-text-color" style="font-size:clamp(2rem,4vw,3rem)">{escape(title)}</h1>\n<!-- /wp:heading -->\n'
+        f'<!-- wp:paragraph {{"textColor":"base"}} -->\n<p class="has-base-color has-text-color">{escape(lead)}</p>\n<!-- /wp:paragraph -->'
     )
-    return group(inner, bg="forest")
+    return group(inner, bg="brand-dark")
 
 
 def home_page():
@@ -373,7 +373,7 @@ def home_page():
                     card(heading_block("Our Vision", 3) + "\n" + p("Creating a sustainable environment for improved quality of life and socioeconomic transformation."), "is-style-envhub-bordered"),
                 ]
             ),
-            bg="light-green",
+            bg="secondary",
         ),
         group(
             eyebrow("Core activities")
@@ -395,7 +395,7 @@ def home_page():
                     + p("Every programme we run &mdash; restoration, education, research, innovation &mdash; is designed with the people who will live with its results. That is what makes the work last."),
                 ]
             ),
-            bg="light-green",
+            bg="secondary",
         ),
         group(
             eyebrow("From the field")
@@ -416,13 +416,13 @@ def home_page():
             + heading_block("Who we work with")
             + "\n"
             + card_grid([(name, "") for name in PARTNERS], per_row=3),
-            bg="light-green",
+            bg="secondary",
         ),
         group(
-            '<!-- wp:heading {"textAlign":"center","textColor":"white"} -->\n<h2 class="wp-block-heading has-text-align-center has-white-color has-text-color">Join the work</h2>\n<!-- /wp:heading -->\n'
-            '<!-- wp:paragraph {"align":"center","textColor":"white"} -->\n<p class="has-text-align-center has-white-color has-text-color">Volunteer, become a member, or partner with us on a jointly designed initiative.</p>\n<!-- /wp:paragraph -->\n'
+            '<!-- wp:heading {"textAlign":"center","textColor":"base"} -->\n<h2 class="wp-block-heading has-text-align-center has-base-color has-text-color">Join the work</h2>\n<!-- /wp:heading -->\n'
+            '<!-- wp:paragraph {"align":"center","textColor":"base"} -->\n<p class="has-text-align-center has-base-color has-text-color">Volunteer, become a member, or partner with us on a jointly designed initiative.</p>\n<!-- /wp:paragraph -->\n'
             + buttons([("Get involved", "/get-involved/"), ("Contact us", "/contact/")]),
-            bg="forest",
+            bg="brand-dark",
         ),
     ]
     return "\n\n".join(parts)
@@ -454,7 +454,7 @@ def about_page():
                         card(heading_block("Our Vision", 3) + "\n" + p("Creating a sustainable environment for improved quality of life and socioeconomic transformation."), "is-style-envhub-bordered"),
                     ]
                 ),
-                bg="light-green",
+                bg="secondary",
             ),
             group(
                 eyebrow("What guides us")
@@ -469,7 +469,7 @@ def about_page():
                 + heading_block("Registered and accountable")
                 + "\n"
                 + p("Environmental Hub Uganda has legal personality, enabling it to enter into contracts, receive grants and donations, implement projects, and establish partnerships with government institutions, development partners, academic institutions and the private sector. Full governance detail — the Board of Trustees, management team and accountability systems — is set out on the <a href=\"/team-governance/\">Team &amp; Governance</a> page."),
-                bg="light-green",
+                bg="secondary",
             ),
             group(
                 eyebrow("Core activities")
@@ -499,7 +499,7 @@ def our_work_page():
             + "\n"
             + columns([p(escape(text)), ul(points)])
         )
-        blocks.append(group(inner, bg=None if i % 2 == 0 else "light-green"))
+        blocks.append(group(inner, bg=None if i % 2 == 0 else "secondary"))
     return "\n\n".join(blocks)
 
 
@@ -549,7 +549,7 @@ def impact_page():
                 + heading_block("Programmes and results")
                 + "\n"
                 + exp_blocks,
-                bg="light-green",
+                bg="secondary",
             ),
         ]
     )
@@ -597,7 +597,7 @@ def team_page():
                         card(heading_block("Project officers", 3) + "\n" + ul(PROJECT_OFFICERS)),
                     ]
                 ),
-                bg="light-green",
+                bg="secondary",
             ),
             group(
                 eyebrow("Governance structure")
@@ -616,7 +616,7 @@ def team_page():
                 + table
                 + "\n"
                 + p("Beyond the core staff, the organisation maintains a network of environmental experts, researchers, university collaborators, volunteers and student fellows who support project implementation across Uganda."),
-                bg="light-green",
+                bg="secondary",
             ),
             group(
                 eyebrow("Accountability")
@@ -635,7 +635,7 @@ def get_involved_page():
     tiers = [
         (
             name,
-            f'<!-- wp:paragraph {{"style":{{"typography":{{"fontSize":"1.5rem","fontWeight":"700"}}}},"textColor":"green"}} -->\n<p class="has-green-color has-text-color" style="font-size:1.5rem;font-weight:700">{escape(cost)}</p>\n<!-- /wp:paragraph -->\n'
+            f'<!-- wp:paragraph {{"style":{{"typography":{{"fontSize":"1.5rem","fontWeight":"700"}}}},"textColor":"primary"}} -->\n<p class="has-primary-color has-text-color" style="font-size:1.5rem;font-weight:700">{escape(cost)}</p>\n<!-- /wp:paragraph -->\n'
             + ul(features)
             + "\n"
             + buttons([("Subscribe", "/contact/")]),
@@ -670,7 +670,7 @@ def get_involved_page():
                 + card_grid([(t, p(escape(d))) for t, d in ways], per_row=3)
                 + "\n"
                 + buttons([("Talk to our team", "/contact/")]),
-                bg="light-green",
+                bg="secondary",
             ),
         ]
     )
@@ -701,7 +701,7 @@ def resources_page():
                 + p("These statutory documents are available on request for partners, donors and grant processes.")
                 + "\n"
                 + ul(DOCS),
-                bg="light-green",
+                bg="secondary",
             ),
             group(eyebrow("Publications") + "\n" + heading_block("From our programmes") + "\n" + pubs),
         ]
