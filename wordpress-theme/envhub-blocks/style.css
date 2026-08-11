@@ -13,41 +13,137 @@ Text Domain: envhub-blocks
 Tags: full-site-editing, block-patterns, blog, one-column, custom-colors, custom-menu, editor-style, featured-images, threaded-comments, translation-ready
 */
 
-/* Block themes get nearly all styling from theme.json. Only small extras live here. */
+/* Most styling comes from theme.json; these rules cover the custom block styles
+   used by the theme patterns and the imported demo content. */
 
 body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* ---------------------------------------------------------------- eyebrow */
 .is-style-envhub-eyebrow,
 .envhub-eyebrow {
   text-transform: uppercase;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.18em;
+  font-size: var(--wp--preset--font-size--small);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
-/* Card hover lift used by the pattern cards. */
-.is-style-envhub-card {
+/* ------------------------------------------------------------------- card */
+.is-style-envhub-card:not(.wp-block-image) {
+  background: var(--wp--preset--color--base);
+  border: 1px solid var(--wp--preset--color--border);
+  border-radius: 10px;
+  padding: 1.75rem;
+  height: 100%;
   transition:
     box-shadow 0.2s ease,
     transform 0.2s ease;
 }
 
-.is-style-envhub-card:hover {
+.is-style-envhub-card.wp-block-image img {
+  border-radius: 10px;
+  box-shadow: 0 20px 45px rgba(31, 50, 41, 0.18);
+}
+
+.is-style-envhub-card:not(.wp-block-image):hover {
   box-shadow: 0 12px 32px rgba(31, 50, 41, 0.12);
   transform: translateY(-2px);
 }
 
-/* Left accent bar used for mission / vision blocks. */
+.is-style-envhub-card > :first-child {
+  margin-top: 0;
+}
+
+.is-style-envhub-card > :last-child {
+  margin-bottom: 0;
+}
+
+/* Cards sitting on a tinted section stay readable. */
+.has-secondary-background-color .is-style-envhub-card:not(.wp-block-image) {
+  background: var(--wp--preset--color--base);
+}
+
+/* --------------------------------------------------------- accent bar box */
 .is-style-envhub-bordered {
+  background: var(--wp--preset--color--secondary);
   border-left: 4px solid var(--wp--preset--color--primary);
+  border-radius: 0 10px 10px 0;
+  padding: 1.75rem;
+  height: 100%;
 }
 
 .is-style-envhub-bordered.has-accent-border {
   border-left-color: var(--wp--preset--color--accent);
 }
 
-/* Cover images inside the hero keep a readable overlay. */
-.envhub-hero .wp-block-cover__inner-container {
+/* --------------------------------------------------------------- columns */
+.wp-block-columns {
+  align-items: stretch;
+}
+
+.wp-block-column > .wp-block-group {
+  height: 100%;
+}
+
+/* ------------------------------------------------------- dark sections */
+.has-brand-dark-background-color a:where(:not(.wp-element-button)),
+.wp-block-cover a:where(:not(.wp-element-button)) {
+  color: var(--wp--preset--color--accent);
+}
+
+.has-brand-dark-background-color,
+.has-brand-dark-background-color p {
+  color: var(--wp--preset--color--base);
+}
+
+/* ------------------------------------------------------------- FAQ details */
+.wp-block-details {
+  border-bottom: 1px solid var(--wp--preset--color--border);
+  padding: 1rem 0;
+}
+
+.wp-block-details summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.wp-block-details > :not(summary) {
+  color: var(--wp--preset--color--muted);
+  margin-top: 0.75rem;
+}
+
+/* ------------------------------------------------------------------ table */
+.wp-block-table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.wp-block-table th,
+.wp-block-table td {
+  border: 1px solid var(--wp--preset--color--border);
+  padding: 0.75rem 1rem;
+  text-align: left;
+  vertical-align: top;
+  font-size: var(--wp--preset--font-size--small);
+}
+
+.wp-block-table thead th {
+  background: var(--wp--preset--color--secondary);
+  font-weight: 600;
+}
+
+.wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
+  background: rgba(238, 244, 239, 0.6);
+}
+
+/* ------------------------------------------------------------------ misc */
+.wp-block-image img {
+  border-radius: 8px;
+}
+
+.wp-block-cover .wp-block-cover__inner-container {
   max-width: 48rem;
 }
 
