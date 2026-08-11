@@ -246,10 +246,10 @@ function Index() {
         <div className="mt-10 grid gap-10 lg:grid-cols-[360px_1fr]">
           <div>
             <img
-              src={director}
+              src={directorAsset.url}
               alt="Muhumure Rodrick, Team Lead of Environmental Hub Uganda"
-              width={800}
-              height={900}
+              width={831}
+              height={1056}
               loading="lazy"
               className="w-full rounded-lg object-cover shadow-xl"
             />
