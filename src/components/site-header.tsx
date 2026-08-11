@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import { Leaf, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import ehubLogo from "@/assets/ehub-logo.png.asset.json";
 
 export const NAV = [
   { label: "Home", to: "/" },
