@@ -27,6 +27,8 @@ import { Route as BlogIndexRouteImport } from './routes/blog.index'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 import { Route as Char91DotmcpChar93InvokeToolToolRouteImport } from './routes/[.mcp]/invoke-tool/$tool'
 import { Route as AuthenticatedAdminIndexRouteImport } from './routes/_authenticated/admin.index'
+import { Route as AuthenticatedAdminMenusRouteImport } from './routes/_authenticated/admin.menus'
+import { Route as AuthenticatedAdminSlidesRouteImport } from './routes/_authenticated/admin.slides'
 import { Route as AuthenticatedAdminPagesIndexRouteImport } from './routes/_authenticated/admin.pages.index'
 import { Route as AuthenticatedAdminPagesSlugRouteImport } from './routes/_authenticated/admin.pages.$slug'
 import { Route as AuthenticatedAdminPostsIndexRouteImport } from './routes/_authenticated/admin.posts.index'
@@ -126,6 +128,17 @@ const AuthenticatedAdminIndexRoute = AuthenticatedAdminIndexRouteImport.update({
   path: '/',
   getParentRoute: () => AuthenticatedAdminRoute,
 } as any)
+const AuthenticatedAdminMenusRoute = AuthenticatedAdminMenusRouteImport.update({
+  id: '/menus',
+  path: '/menus',
+  getParentRoute: () => AuthenticatedAdminRoute,
+} as any)
+const AuthenticatedAdminSlidesRoute =
+  AuthenticatedAdminSlidesRouteImport.update({
+    id: '/slides',
+    path: '/slides',
+    getParentRoute: () => AuthenticatedAdminRoute,
+  } as any)
 const AuthenticatedAdminPagesIndexRoute =
   AuthenticatedAdminPagesIndexRouteImport.update({
     id: '/pages/',
@@ -179,6 +192,8 @@ export interface FileRoutesByFullPath {
   '/blog/$slug': typeof BlogSlugRoute
   '/blog/': typeof BlogIndexRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
+  '/admin/menus': typeof AuthenticatedAdminMenusRoute
+  '/admin/slides': typeof AuthenticatedAdminSlidesRoute
   '/admin/': typeof AuthenticatedAdminIndexRoute
   '/admin/pages/$slug': typeof AuthenticatedAdminPagesSlugRoute
   '/admin/posts/$id': typeof AuthenticatedAdminPostsIdRoute
@@ -203,6 +218,8 @@ export interface FileRoutesByTo {
   '/blog/$slug': typeof BlogSlugRoute
   '/blog': typeof BlogIndexRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
+  '/admin/menus': typeof AuthenticatedAdminMenusRoute
+  '/admin/slides': typeof AuthenticatedAdminSlidesRoute
   '/admin': typeof AuthenticatedAdminIndexRoute
   '/admin/pages/$slug': typeof AuthenticatedAdminPagesSlugRoute
   '/admin/posts/$id': typeof AuthenticatedAdminPostsIdRoute
@@ -230,6 +247,8 @@ export interface FileRoutesById {
   '/blog/$slug': typeof BlogSlugRoute
   '/blog/': typeof BlogIndexRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
+  '/_authenticated/admin/menus': typeof AuthenticatedAdminMenusRoute
+  '/_authenticated/admin/slides': typeof AuthenticatedAdminSlidesRoute
   '/_authenticated/admin/': typeof AuthenticatedAdminIndexRoute
   '/_authenticated/admin/pages/$slug': typeof AuthenticatedAdminPagesSlugRoute
   '/_authenticated/admin/posts/$id': typeof AuthenticatedAdminPostsIdRoute
@@ -257,6 +276,8 @@ export interface FileRouteTypes {
     | '/blog/$slug'
     | '/blog/'
     | '/.mcp/invoke-tool/$tool'
+    | '/admin/menus'
+    | '/admin/slides'
     | '/admin/'
     | '/admin/pages/$slug'
     | '/admin/posts/$id'
@@ -281,6 +302,8 @@ export interface FileRouteTypes {
     | '/blog/$slug'
     | '/blog'
     | '/.mcp/invoke-tool/$tool'
+    | '/admin/menus'
+    | '/admin/slides'
     | '/admin'
     | '/admin/pages/$slug'
     | '/admin/posts/$id'
@@ -307,6 +330,8 @@ export interface FileRouteTypes {
     | '/blog/$slug'
     | '/blog/'
     | '/.mcp/invoke-tool/$tool'
+    | '/_authenticated/admin/menus'
+    | '/_authenticated/admin/slides'
     | '/_authenticated/admin/'
     | '/_authenticated/admin/pages/$slug'
     | '/_authenticated/admin/posts/$id'
@@ -465,6 +490,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuthenticatedAdminIndexRouteImport
       parentRoute: typeof AuthenticatedAdminRoute
     }
+    '/_authenticated/admin/menus': {
+      id: '/_authenticated/admin/menus'
+      path: '/menus'
+      fullPath: '/admin/menus'
+      preLoaderRoute: typeof AuthenticatedAdminMenusRouteImport
+      parentRoute: typeof AuthenticatedAdminRoute
+    }
+    '/_authenticated/admin/slides': {
+      id: '/_authenticated/admin/slides'
+      path: '/slides'
+      fullPath: '/admin/slides'
+      preLoaderRoute: typeof AuthenticatedAdminSlidesRouteImport
+      parentRoute: typeof AuthenticatedAdminRoute
+    }
     '/_authenticated/admin/pages/': {
       id: '/_authenticated/admin/pages/'
       path: '/pages'
@@ -511,6 +550,8 @@ declare module '@tanstack/react-router' {
 }
 
 interface AuthenticatedAdminRouteChildren {
+  AuthenticatedAdminMenusRoute: typeof AuthenticatedAdminMenusRoute
+  AuthenticatedAdminSlidesRoute: typeof AuthenticatedAdminSlidesRoute
   AuthenticatedAdminIndexRoute: typeof AuthenticatedAdminIndexRoute
   AuthenticatedAdminPagesSlugRoute: typeof AuthenticatedAdminPagesSlugRoute
   AuthenticatedAdminPostsIdRoute: typeof AuthenticatedAdminPostsIdRoute
@@ -519,6 +560,8 @@ interface AuthenticatedAdminRouteChildren {
 }
 
 const AuthenticatedAdminRouteChildren: AuthenticatedAdminRouteChildren = {
+  AuthenticatedAdminMenusRoute: AuthenticatedAdminMenusRoute,
+  AuthenticatedAdminSlidesRoute: AuthenticatedAdminSlidesRoute,
   AuthenticatedAdminIndexRoute: AuthenticatedAdminIndexRoute,
   AuthenticatedAdminPagesSlugRoute: AuthenticatedAdminPagesSlugRoute,
   AuthenticatedAdminPostsIdRoute: AuthenticatedAdminPostsIdRoute,
