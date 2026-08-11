@@ -12,7 +12,8 @@ import {
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { Section, Eyebrow } from "@/components/page-shell";
-import { POSTS } from "@/data/posts";
+import { useQuery } from "@tanstack/react-query";
+import { postsQuery } from "@/lib/cms";
 
 import hero1 from "@/assets/hero-1.jpg";
 import hero2 from "@/assets/hero-2.jpg";
@@ -92,6 +93,7 @@ const PARTNERS = [
 ];
 
 function Index() {
+  const { data: posts = [] } = useQuery(postsQuery());
   const [slide, setSlide] = useState(0);
 
   useEffect(() => {
@@ -284,7 +286,7 @@ function Index() {
         <Eyebrow>Blog</Eyebrow>
         <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">From the field</h2>
         <div className="mt-10 grid gap-6 md:grid-cols-3">
-          {POSTS.slice(0, 3).map((p) => (
+          {posts.slice(0, 3).map((p) => (
             <article key={p.slug} className="flex flex-col rounded-lg border border-border bg-card p-7">
               <span className="text-xs font-semibold tracking-wide text-accent uppercase">
                 {p.tag}

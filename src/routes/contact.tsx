@@ -26,6 +26,7 @@ export const Route = createFileRoute("/contact")({
 function ContactPage() {
   return (
     <PageShell
+      slug="contact"
       title="Contact Us"
       lead="Partnerships, membership, volunteering or media — send us a message and the relevant team will respond."
     >

@@ -48,6 +48,7 @@ const ACTIVITIES = [
 function AboutPage() {
   return (
     <PageShell
+      slug="about"
       title="About Us"
       lead="Bricks Environment and Climate Hub Initiative Uganda — a youth-led organisation for environmental conservation, climate resilience and sustainable development."
     >

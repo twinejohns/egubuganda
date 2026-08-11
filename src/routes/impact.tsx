@@ -66,6 +66,7 @@ const EXPERIENCE = [
 function ImpactPage() {
   return (
     <PageShell
+      slug="impact"
       title="Our Impact"
       lead="Community-based environmental and climate action across Uganda, with a strong focus on biodiversity conservation, ecosystem restoration, climate resilience, environmental education and youth empowerment."
     >

@@ -1,7 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { FileText, HelpCircle } from "lucide-react";
 import { PageShell, Section, Eyebrow } from "@/components/page-shell";
-import { POSTS } from "@/data/posts";
+import { useQuery } from "@tanstack/react-query";
+import { postsQuery } from "@/lib/cms";
 
 export const Route = createFileRoute("/resources")({
   head: () => ({
@@ -55,8 +56,10 @@ const DOCS = [
 ];
 
 function ResourcesPage() {
+  const { data: posts = [] } = useQuery(postsQuery());
   return (
     <PageShell
+      slug="resources"
       title="Resources"
       lead="Frequently asked questions, organisational documents and writing from our field and research programmes."
     >
@@ -107,7 +110,7 @@ function ResourcesPage() {
         <Eyebrow>Publications</Eyebrow>
         <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">From our programmes</h2>
         <ul className="mt-8 space-y-3">
-          {POSTS.map((p) => (
+          {posts.map((p) => (
             <li key={p.slug}>
               <Link
                 to="/blog/$slug"
