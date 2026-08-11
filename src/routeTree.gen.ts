@@ -27,6 +27,8 @@ import { Route as BlogIndexRouteImport } from './routes/blog.index'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 import { Route as Char91DotmcpChar93InvokeToolToolRouteImport } from './routes/[.mcp]/invoke-tool/$tool'
 import { Route as AuthenticatedAdminIndexRouteImport } from './routes/_authenticated/admin.index'
+import { Route as AuthenticatedAdminPagesIndexRouteImport } from './routes/_authenticated/admin.pages.index'
+import { Route as AuthenticatedAdminPagesSlugRouteImport } from './routes/_authenticated/admin.pages.$slug'
 import { Route as AuthenticatedAdminPostsIndexRouteImport } from './routes/_authenticated/admin.posts.index'
 import { Route as AuthenticatedAdminPostsIdRouteImport } from './routes/_authenticated/admin.posts.$id'
 import { Route as ApiPublicMediaSplatRouteImport } from './routes/api/public/media.$'
@@ -124,6 +126,18 @@ const AuthenticatedAdminIndexRoute = AuthenticatedAdminIndexRouteImport.update({
   path: '/',
   getParentRoute: () => AuthenticatedAdminRoute,
 } as any)
+const AuthenticatedAdminPagesIndexRoute =
+  AuthenticatedAdminPagesIndexRouteImport.update({
+    id: '/pages/',
+    path: '/pages/',
+    getParentRoute: () => AuthenticatedAdminRoute,
+  } as any)
+const AuthenticatedAdminPagesSlugRoute =
+  AuthenticatedAdminPagesSlugRouteImport.update({
+    id: '/pages/$slug',
+    path: '/pages/$slug',
+    getParentRoute: () => AuthenticatedAdminRoute,
+  } as any)
 const AuthenticatedAdminPostsIndexRoute =
   AuthenticatedAdminPostsIndexRouteImport.update({
     id: '/posts/',
@@ -166,9 +180,11 @@ export interface FileRoutesByFullPath {
   '/blog/': typeof BlogIndexRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
   '/admin/': typeof AuthenticatedAdminIndexRoute
+  '/admin/pages/$slug': typeof AuthenticatedAdminPagesSlugRoute
   '/admin/posts/$id': typeof AuthenticatedAdminPostsIdRoute
   '/api/public/media/$': typeof ApiPublicMediaSplatRoute
   '/lovable/email/transactional/preview': typeof LovableEmailTransactionalPreviewRoute
+  '/admin/pages/': typeof AuthenticatedAdminPagesIndexRoute
   '/admin/posts/': typeof AuthenticatedAdminPostsIndexRoute
 }
 export interface FileRoutesByTo {
@@ -188,9 +204,11 @@ export interface FileRoutesByTo {
   '/blog': typeof BlogIndexRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
   '/admin': typeof AuthenticatedAdminIndexRoute
+  '/admin/pages/$slug': typeof AuthenticatedAdminPagesSlugRoute
   '/admin/posts/$id': typeof AuthenticatedAdminPostsIdRoute
   '/api/public/media/$': typeof ApiPublicMediaSplatRoute
   '/lovable/email/transactional/preview': typeof LovableEmailTransactionalPreviewRoute
+  '/admin/pages': typeof AuthenticatedAdminPagesIndexRoute
   '/admin/posts': typeof AuthenticatedAdminPostsIndexRoute
 }
 export interface FileRoutesById {
@@ -213,9 +231,11 @@ export interface FileRoutesById {
   '/blog/': typeof BlogIndexRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
   '/_authenticated/admin/': typeof AuthenticatedAdminIndexRoute
+  '/_authenticated/admin/pages/$slug': typeof AuthenticatedAdminPagesSlugRoute
   '/_authenticated/admin/posts/$id': typeof AuthenticatedAdminPostsIdRoute
   '/api/public/media/$': typeof ApiPublicMediaSplatRoute
   '/lovable/email/transactional/preview': typeof LovableEmailTransactionalPreviewRoute
+  '/_authenticated/admin/pages/': typeof AuthenticatedAdminPagesIndexRoute
   '/_authenticated/admin/posts/': typeof AuthenticatedAdminPostsIndexRoute
 }
 export interface FileRouteTypes {
@@ -238,9 +258,11 @@ export interface FileRouteTypes {
     | '/blog/'
     | '/.mcp/invoke-tool/$tool'
     | '/admin/'
+    | '/admin/pages/$slug'
     | '/admin/posts/$id'
     | '/api/public/media/$'
     | '/lovable/email/transactional/preview'
+    | '/admin/pages/'
     | '/admin/posts/'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -260,9 +282,11 @@ export interface FileRouteTypes {
     | '/blog'
     | '/.mcp/invoke-tool/$tool'
     | '/admin'
+    | '/admin/pages/$slug'
     | '/admin/posts/$id'
     | '/api/public/media/$'
     | '/lovable/email/transactional/preview'
+    | '/admin/pages'
     | '/admin/posts'
   id:
     | '__root__'
@@ -284,9 +308,11 @@ export interface FileRouteTypes {
     | '/blog/'
     | '/.mcp/invoke-tool/$tool'
     | '/_authenticated/admin/'
+    | '/_authenticated/admin/pages/$slug'
     | '/_authenticated/admin/posts/$id'
     | '/api/public/media/$'
     | '/lovable/email/transactional/preview'
+    | '/_authenticated/admin/pages/'
     | '/_authenticated/admin/posts/'
   fileRoutesById: FileRoutesById
 }
@@ -439,6 +465,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuthenticatedAdminIndexRouteImport
       parentRoute: typeof AuthenticatedAdminRoute
     }
+    '/_authenticated/admin/pages/': {
+      id: '/_authenticated/admin/pages/'
+      path: '/pages'
+      fullPath: '/admin/pages/'
+      preLoaderRoute: typeof AuthenticatedAdminPagesIndexRouteImport
+      parentRoute: typeof AuthenticatedAdminRoute
+    }
+    '/_authenticated/admin/pages/$slug': {
+      id: '/_authenticated/admin/pages/$slug'
+      path: '/pages/$slug'
+      fullPath: '/admin/pages/$slug'
+      preLoaderRoute: typeof AuthenticatedAdminPagesSlugRouteImport
+      parentRoute: typeof AuthenticatedAdminRoute
+    }
     '/_authenticated/admin/posts/': {
       id: '/_authenticated/admin/posts/'
       path: '/posts'
@@ -472,13 +512,17 @@ declare module '@tanstack/react-router' {
 
 interface AuthenticatedAdminRouteChildren {
   AuthenticatedAdminIndexRoute: typeof AuthenticatedAdminIndexRoute
+  AuthenticatedAdminPagesSlugRoute: typeof AuthenticatedAdminPagesSlugRoute
   AuthenticatedAdminPostsIdRoute: typeof AuthenticatedAdminPostsIdRoute
+  AuthenticatedAdminPagesIndexRoute: typeof AuthenticatedAdminPagesIndexRoute
   AuthenticatedAdminPostsIndexRoute: typeof AuthenticatedAdminPostsIndexRoute
 }
 
 const AuthenticatedAdminRouteChildren: AuthenticatedAdminRouteChildren = {
   AuthenticatedAdminIndexRoute: AuthenticatedAdminIndexRoute,
+  AuthenticatedAdminPagesSlugRoute: AuthenticatedAdminPagesSlugRoute,
   AuthenticatedAdminPostsIdRoute: AuthenticatedAdminPostsIdRoute,
+  AuthenticatedAdminPagesIndexRoute: AuthenticatedAdminPagesIndexRoute,
   AuthenticatedAdminPostsIndexRoute: AuthenticatedAdminPostsIndexRoute,
 }
 
