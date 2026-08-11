@@ -27,29 +27,64 @@ export function Section({
   );
 }
 
+export function CmsBody({ body }: { body: string }) {
+  const blocks = parseBody(body);
+  if (!blocks.length) return null;
+  return (
+    <div className="mx-auto max-w-3xl space-y-5 text-[15px] leading-relaxed text-muted-foreground">
+      {blocks.map((b, i) =>
+        b.type === "h2" ? (
+          <h2 key={i} className="text-2xl font-bold tracking-tight text-foreground">
+            {b.text}
+          </h2>
+        ) : b.type === "ul" ? (
+          <ul key={i} className="list-disc space-y-1 pl-5">
+            {b.items?.map((item) => <li key={item}>{item}</li>)}
+          </ul>
+        ) : (
+          <p key={i}>{b.text}</p>
+        ),
+      )}
+    </div>
+  );
+}
+
 export function PageShell({
   title,
   lead,
+  slug,
   children,
 }: {
   title: string;
   lead?: string;
+  /** When set, the heading, intro and extra body text are managed from the admin area. */
+  slug?: string;
   children: ReactNode;
 }) {
+  const { data: page } = useQuery({ ...pageQuery(slug ?? ""), enabled: Boolean(slug) });
+  const heading = page?.title || title;
+  const intro = page?.lead || lead;
+
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteHeader />
       <section className="bg-[var(--brand-dark)] px-6 pt-32 pb-16 text-primary-foreground">
         <div className="mx-auto max-w-6xl">
-          <h1 className="text-3xl font-bold tracking-tight sm:text-5xl">{title}</h1>
-          {lead && (
+          <h1 className="text-3xl font-bold tracking-tight sm:text-5xl">{heading}</h1>
+          {intro && (
             <p className="mt-4 max-w-3xl text-base leading-relaxed text-primary-foreground/80">
-              {lead}
+              {intro}
             </p>
           )}
         </div>
       </section>
+      {page?.body ? (
+        <Section>
+          <CmsBody body={page.body} />
+        </Section>
+      ) : null}
       {children}
+
       <SiteFooter />
     </div>
   );
