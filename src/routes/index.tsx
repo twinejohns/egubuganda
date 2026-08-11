@@ -93,6 +93,7 @@ const PARTNERS = [
 ];
 
 function Index() {
+  const { data: posts = [] } = useQuery(postsQuery());
   const [slide, setSlide] = useState(0);
 
   useEffect(() => {

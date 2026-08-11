@@ -56,6 +56,7 @@ const DOCS = [
 ];
 
 function ResourcesPage() {
+  const { data: posts = [] } = useQuery(postsQuery());
   return (
     <PageShell
       slug="resources"
