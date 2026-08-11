@@ -104,6 +104,7 @@ const ANNEXES = [
 function TeamPage() {
   return (
     <PageShell
+      slug="team"
       title="Team & Governance"
       lead="Organisational structure, governance and administration of Bricks Environment and Climate Hub Initiative Uganda (EHUG)."
     >

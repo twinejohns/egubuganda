@@ -82,6 +82,7 @@ const WAYS = [
 function GetInvolvedPage() {
   return (
     <PageShell
+      slug="get-involved"
       title="Get Involved"
       lead="Membership, volunteering, partnerships and donations — several ways to join the work of building a sustainable environment for generations."
     >

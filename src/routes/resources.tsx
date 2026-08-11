@@ -57,6 +57,7 @@ const DOCS = [
 function ResourcesPage() {
   return (
     <PageShell
+      slug="resources"
       title="Resources"
       lead="Frequently asked questions, organisational documents and writing from our field and research programmes."
     >

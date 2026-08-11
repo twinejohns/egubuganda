@@ -70,6 +70,7 @@ const ACTIVITIES = [
 function OurWorkPage() {
   return (
     <PageShell
+      slug="our-work"
       title="Our Work"
       lead="Four core activities carry our mandate: climate mitigation and adaptation, conservation and restoration, environmental education, and research and innovation."
     >
