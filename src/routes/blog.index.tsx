@@ -1,8 +1,12 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { useQuery } from "@tanstack/react-query";
 import { PageShell, Section, Eyebrow } from "@/components/page-shell";
-import { POSTS } from "@/data/posts";
+import { postsQuery } from "@/lib/cms";
 
 export const Route = createFileRoute("/blog/")({
+  loader: ({ context }) => {
+    context.queryClient.ensureQueryData(postsQuery());
+  },
   head: () => ({
     meta: [
       { title: "Blog | Environmental Hub Uganda" },
@@ -24,16 +28,22 @@ export const Route = createFileRoute("/blog/")({
 });
 
 function BlogIndex() {
+  const { data: posts = [] } = useQuery(postsQuery());
+
   return (
     <PageShell
+      slug="blog"
       title="Blog"
       lead="Notes, research and stories from our work across Uganda — restoration, education, research, innovation and climate finance."
     >
       <Section>
         <Eyebrow>From the field</Eyebrow>
         <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Latest articles</h2>
+        {posts.length === 0 && (
+          <p className="mt-6 text-sm text-muted-foreground">No articles published yet.</p>
+        )}
         <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {POSTS.map((p) => (
+          {posts.map((p) => (
             <article
               key={p.slug}
               className="flex flex-col rounded-lg border border-border bg-card p-7 transition-shadow hover:shadow-lg"
