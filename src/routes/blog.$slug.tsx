@@ -1,9 +1,9 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { PageShell, Section } from "@/components/page-shell";
-import { getPost, POSTS } from "@/data/posts";
+import { getPost, POSTS, type Post } from "@/data/posts";
 
 export const Route = createFileRoute("/blog/$slug")({
-  loader: ({ params }) => {
+  loader: ({ params }): { post: Post } => {
     const post = getPost(params.slug);
     if (!post) throw notFound();
     return { post };
