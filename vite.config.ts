@@ -13,6 +13,11 @@ import { mcpPlugin } from "@lovable.dev/mcp-js/stacks/tanstack/vite";
 const serverEnv = loadEnv(process.env['NODE_ENV'] || "development", process.cwd(), "");
 Object.assign(process.env, serverEnv);
 
+// Self-hosting (e.g. cPanel "Setup Node.js App"): build with NITRO_PRESET=node-server.
+// Ignored inside Lovable builds, which always target their own runtime.
+const selfHostPreset = process.env['NITRO_PRESET'];
+
+
 export default defineConfig({
   plugins: [mcpPlugin()],
   vite: {
