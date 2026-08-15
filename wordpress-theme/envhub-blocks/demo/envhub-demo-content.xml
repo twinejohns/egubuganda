@@ -9,7 +9,7 @@
   <title>Environmental Hub Uganda</title>
   <link>https://envhub-ug.org</link>
   <description>Youth-led NGO for environmental conservation, climate resilience and sustainable development</description>
-  <pubDate>Tue, 11 Aug 2026 13:31:25 +0000</pubDate>
+  <pubDate>Sat, 15 Aug 2026 02:03:00 +0000</pubDate>
   <language>en-US</language>
   <wp:wxr_version>1.2</wp:wxr_version>
   <wp:base_site_url>https://envhub-ug.org</wp:base_site_url>
@@ -46,8 +46,14 @@
     <wp:term_slug>primary</wp:term_slug>
     <wp:term_name><![CDATA[Primary]]></wp:term_name>
   </wp:term>
+  <wp:term>
+    <wp:term_id>91</wp:term_id>
+    <wp:term_taxonomy>nav_menu</wp:term_taxonomy>
+    <wp:term_slug>footer</wp:term_slug>
+    <wp:term_name><![CDATA[Footer]]></wp:term_name>
+  </wp:term>
   <item>
-    <title><![CDATA[Home]]></title>
+    <title><![CDATA[Environmental Hub Uganda]]></title>
     <link>https://envhub-ug.org/home/</link>
     <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
     <dc:creator><![CDATA[envhub]]></dc:creator>
@@ -56,10 +62,10 @@
     <content:encoded><![CDATA[<!-- wp:cover {"url":"https://envhub-ug.org/wp-content/themes/envhub-blocks/assets/img/hero-1.jpg","dimRatio":65,"overlayColor":"brand-dark","minHeight":72,"minHeightUnit":"vh","align":"full","layout":{"type":"constrained"}} -->
 <div class="wp-block-cover alignfull" style="min-height:72vh"><span aria-hidden="true" class="wp-block-cover__background has-brand-dark-background-color has-background-dim-60 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="https://envhub-ug.org/wp-content/themes/envhub-blocks/assets/img/hero-1.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
 <!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"clamp(2rem,5vw,3.25rem)"}},"textColor":"base"} -->
-<h1 class="wp-block-heading has-text-align-center has-base-color has-text-color" style="font-size:clamp(2rem,5vw,3.25rem)">Welcome to Environmental Hub Uganda</h1>
+<h1 class="wp-block-heading has-text-align-center has-base-color has-text-color" style="font-size:clamp(2rem,5vw,3.25rem)">Environmental Hub Uganda</h1>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"align":"center","textColor":"base"} -->
-<p class="has-text-align-center has-base-color has-text-color">A youth-led NGO promoting sustainability and resilience in Uganda through climate action, conservation, education and research. Join us in building a greener future where nature thrives and communities prosper.</p>
+<p class="has-text-align-center has-base-color has-text-color">Community-based environmental and climate action across Uganda — conservation, restoration, education, research and youth empowerment.</p>
 <!-- /wp:paragraph -->
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons">
@@ -414,7 +420,7 @@
 <!-- /wp:group -->
 </div>
 <!-- /wp:group -->]]></content:encoded>
-    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <excerpt:encoded><![CDATA[Youth-led environmental conservation, climate resilience and sustainable development in Uganda.]]></excerpt:encoded>
     <wp:post_id>101</wp:post_id>
     <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
     <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
@@ -717,7 +723,7 @@
 <!-- /wp:group -->
 </div>
 <!-- /wp:group -->]]></content:encoded>
-    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <excerpt:encoded><![CDATA[Who we are: a youth-led Ugandan organisation for conservation, climate resilience and sustainable development.]]></excerpt:encoded>
     <wp:post_id>102</wp:post_id>
     <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
     <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
@@ -928,7 +934,7 @@
 <!-- /wp:group -->
 </div>
 <!-- /wp:group -->]]></content:encoded>
-    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <excerpt:encoded><![CDATA[Our core activities across climate action, restoration, education, research and innovation.]]></excerpt:encoded>
     <wp:post_id>103</wp:post_id>
     <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
     <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
@@ -947,7 +953,7 @@
     </wp:postmeta>
   </item>
   <item>
-    <title><![CDATA[Impact]]></title>
+    <title><![CDATA[Our Impact]]></title>
     <link>https://envhub-ug.org/impact/</link>
     <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
     <dc:creator><![CDATA[envhub]]></dc:creator>
@@ -1131,7 +1137,7 @@
 <!-- /wp:group -->
 </div>
 <!-- /wp:group -->]]></content:encoded>
-    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <excerpt:encoded><![CDATA[Results and experience from our environmental and climate programmes in Uganda.]]></excerpt:encoded>
     <wp:post_id>104</wp:post_id>
     <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
     <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
@@ -1434,7 +1440,7 @@
 <!-- /wp:group -->
 </div>
 <!-- /wp:group -->]]></content:encoded>
-    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <excerpt:encoded><![CDATA[Governance structure, leadership and staffing of Environmental Hub Uganda.]]></excerpt:encoded>
     <wp:post_id>105</wp:post_id>
     <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
     <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
@@ -1712,7 +1718,7 @@
 <!-- /wp:group -->
 </div>
 <!-- /wp:group -->]]></content:encoded>
-    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <excerpt:encoded><![CDATA[Join as a member, volunteer, partner or donor.]]></excerpt:encoded>
     <wp:post_id>106</wp:post_id>
     <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
     <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
@@ -1865,7 +1871,7 @@
 <!-- /wp:group -->
 </div>
 <!-- /wp:group -->]]></content:encoded>
-    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <excerpt:encoded><![CDATA[FAQs, documents and writing from our programmes.]]></excerpt:encoded>
     <wp:post_id>107</wp:post_id>
     <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
     <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
@@ -1898,13 +1904,13 @@
 <h1 class="wp-block-heading has-base-color has-text-color" style="font-size:clamp(2rem,4vw,3rem)">Blog</h1>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"textColor":"base"} -->
-<p class="has-base-color has-text-color">Field notes, research findings and programme updates from Environmental Hub Uganda.</p>
+<p class="has-base-color has-text-color">Notes, research and stories from our work across Uganda — restoration, education, research, innovation and climate finance.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 </div>
 <!-- /wp:group -->]]></content:encoded>
-    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <excerpt:encoded><![CDATA[Articles and field notes from Environmental Hub Uganda.]]></excerpt:encoded>
     <wp:post_id>108</wp:post_id>
     <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
     <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
@@ -1923,7 +1929,7 @@
     </wp:postmeta>
   </item>
   <item>
-    <title><![CDATA[Contact]]></title>
+    <title><![CDATA[Contact Us]]></title>
     <link>https://envhub-ug.org/contact/</link>
     <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
     <dc:creator><![CDATA[envhub]]></dc:creator>
@@ -1997,7 +2003,7 @@
 <!-- /wp:group -->
 </div>
 <!-- /wp:group -->]]></content:encoded>
-    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <excerpt:encoded><![CDATA[Contact Environmental Hub Uganda.]]></excerpt:encoded>
     <wp:post_id>109</wp:post_id>
     <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
     <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
@@ -2023,7 +2029,7 @@
     <guid isPermaLink="false">https://envhub-ug.org/?p=110</guid>
     <description></description>
     <content:encoded><![CDATA[<!-- wp:image {"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://envhub-ug.org/wp-content/themes/envhub-blocks/assets/img/hero-2.jpg" alt="Growing forests with the people who tend them"/></figure>
+<figure class="wp-block-image size-large"><img src="https://envhub-ug.org/wp-content/themes/envhub-blocks/assets/img/hero-1.jpg" alt="Growing forests with the people who tend them"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -2064,7 +2070,7 @@
     <guid isPermaLink="false">https://envhub-ug.org/?p=111</guid>
     <description></description>
     <content:encoded><![CDATA[<!-- wp:image {"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://envhub-ug.org/wp-content/themes/envhub-blocks/assets/img/hero-1.jpg" alt="Reaching 5,000 young people with climate education"/></figure>
+<figure class="wp-block-image size-large"><img src="https://envhub-ug.org/wp-content/themes/envhub-blocks/assets/img/hero-2.jpg" alt="Reaching 5,000 young people with climate education"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -2146,7 +2152,7 @@
     <guid isPermaLink="false">https://envhub-ug.org/?p=113</guid>
     <description></description>
     <content:encoded><![CDATA[<!-- wp:image {"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://envhub-ug.org/wp-content/themes/envhub-blocks/assets/img/hero-2.jpg" alt="Boot camps, hackathons and the business of green skills"/></figure>
+<figure class="wp-block-image size-large"><img src="https://envhub-ug.org/wp-content/themes/envhub-blocks/assets/img/hero-1.jpg" alt="Boot camps, hackathons and the business of green skills"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -2187,7 +2193,7 @@
     <guid isPermaLink="false">https://envhub-ug.org/?p=114</guid>
     <description></description>
     <content:encoded><![CDATA[<!-- wp:image {"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://envhub-ug.org/wp-content/themes/envhub-blocks/assets/img/hero-3.jpg" alt="Opening up climate finance through the KCFS Lab"/></figure>
+<figure class="wp-block-image size-large"><img src="https://envhub-ug.org/wp-content/themes/envhub-blocks/assets/img/hero-2.jpg" alt="Opening up climate finance through the KCFS Lab"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -2374,7 +2380,7 @@
     </wp:postmeta>
   </item>
   <item>
-    <title><![CDATA[Team & Governance]]></title>
+    <title><![CDATA[Team]]></title>
     <link>https://envhub-ug.org/menu-item-118/</link>
     <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
     <dc:creator><![CDATA[envhub]]></dc:creator>
@@ -2599,6 +2605,210 @@
     <wp:post_password></wp:post_password>
     <wp:is_sticky>0</wp:is_sticky>
     <category domain="nav_menu" nicename="primary"><![CDATA[Primary]]></category>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+      <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+      <wp:meta_value><![CDATA[0]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+      <wp:meta_value><![CDATA[109]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+      <wp:meta_value><![CDATA[page]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+      <wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[About Us]]></title>
+    <link>https://envhub-ug.org/menu-item-123/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=123</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>123</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[menu-item-123]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>1</wp:menu_order>
+    <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="nav_menu" nicename="footer"><![CDATA[Footer]]></category>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+      <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+      <wp:meta_value><![CDATA[0]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+      <wp:meta_value><![CDATA[102]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+      <wp:meta_value><![CDATA[page]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+      <wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Our Work]]></title>
+    <link>https://envhub-ug.org/menu-item-124/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=124</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>124</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[menu-item-124]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>2</wp:menu_order>
+    <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="nav_menu" nicename="footer"><![CDATA[Footer]]></category>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+      <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+      <wp:meta_value><![CDATA[0]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+      <wp:meta_value><![CDATA[103]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+      <wp:meta_value><![CDATA[page]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+      <wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Blog]]></title>
+    <link>https://envhub-ug.org/menu-item-125/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=125</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>125</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[menu-item-125]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>3</wp:menu_order>
+    <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="nav_menu" nicename="footer"><![CDATA[Footer]]></category>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+      <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+      <wp:meta_value><![CDATA[0]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+      <wp:meta_value><![CDATA[108]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+      <wp:meta_value><![CDATA[page]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+      <wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Contact]]></title>
+    <link>https://envhub-ug.org/menu-item-126/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=126</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>126</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[menu-item-126]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>4</wp:menu_order>
+    <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="nav_menu" nicename="footer"><![CDATA[Footer]]></category>
     <wp:postmeta>
       <wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
       <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
