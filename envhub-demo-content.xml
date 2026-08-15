@@ -1,0 +1,2842 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+  xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+  <title>Environmental Hub Uganda</title>
+  <link>https://envhub-ug.org</link>
+  <description>Youth-led NGO for environmental conservation, climate resilience and sustainable development</description>
+  <pubDate>Sat, 15 Aug 2026 02:03:00 +0000</pubDate>
+  <language>en-US</language>
+  <wp:wxr_version>1.2</wp:wxr_version>
+  <wp:base_site_url>https://envhub-ug.org</wp:base_site_url>
+  <wp:base_blog_url>https://envhub-ug.org</wp:base_blog_url>
+  <wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[envhub]]></wp:author_login><wp:author_email><![CDATA[info@envhub-ug.org]]></wp:author_email><wp:author_display_name><![CDATA[Environmental Hub Uganda]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+  <wp:category>
+    <wp:category_nicename><![CDATA[conservation]]></wp:category_nicename>
+    <wp:category_parent></wp:category_parent>
+    <wp:cat_name><![CDATA[Conservation]]></wp:cat_name>
+  </wp:category>
+  <wp:category>
+    <wp:category_nicename><![CDATA[education]]></wp:category_nicename>
+    <wp:category_parent></wp:category_parent>
+    <wp:cat_name><![CDATA[Education]]></wp:cat_name>
+  </wp:category>
+  <wp:category>
+    <wp:category_nicename><![CDATA[research]]></wp:category_nicename>
+    <wp:category_parent></wp:category_parent>
+    <wp:cat_name><![CDATA[Research]]></wp:cat_name>
+  </wp:category>
+  <wp:category>
+    <wp:category_nicename><![CDATA[innovation]]></wp:category_nicename>
+    <wp:category_parent></wp:category_parent>
+    <wp:cat_name><![CDATA[Innovation]]></wp:cat_name>
+  </wp:category>
+  <wp:category>
+    <wp:category_nicename><![CDATA[climate-finance]]></wp:category_nicename>
+    <wp:category_parent></wp:category_parent>
+    <wp:cat_name><![CDATA[Climate Finance]]></wp:cat_name>
+  </wp:category>
+  <wp:term>
+    <wp:term_id>90</wp:term_id>
+    <wp:term_taxonomy>nav_menu</wp:term_taxonomy>
+    <wp:term_slug>primary</wp:term_slug>
+    <wp:term_name><![CDATA[Primary]]></wp:term_name>
+  </wp:term>
+  <wp:term>
+    <wp:term_id>91</wp:term_id>
+    <wp:term_taxonomy>nav_menu</wp:term_taxonomy>
+    <wp:term_slug>footer</wp:term_slug>
+    <wp:term_name><![CDATA[Footer]]></wp:term_name>
+  </wp:term>
+  <item>
+    <title><![CDATA[Environmental Hub Uganda]]></title>
+    <link>https://envhub-ug.org/home/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=101</guid>
+    <description></description>
+    <content:encoded><![CDATA[<!-- wp:cover {"url":"https://envhub-ug.org/wp-content/themes/envhub-blocks/assets/img/hero-1.jpg","dimRatio":65,"overlayColor":"brand-dark","minHeight":72,"minHeightUnit":"vh","align":"full","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignfull" style="min-height:72vh"><span aria-hidden="true" class="wp-block-cover__background has-brand-dark-background-color has-background-dim-60 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="https://envhub-ug.org/wp-content/themes/envhub-blocks/assets/img/hero-1.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
+<!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"clamp(2rem,5vw,3.25rem)"}},"textColor":"base"} -->
+<h1 class="wp-block-heading has-text-align-center has-base-color has-text-color" style="font-size:clamp(2rem,5vw,3.25rem)">Environmental Hub Uganda</h1>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"align":"center","textColor":"base"} -->
+<p class="has-text-align-center has-base-color has-text-color">Community-based environmental and climate action across Uganda — conservation, restoration, education, research and youth empowerment.</p>
+<!-- /wp:paragraph -->
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/about-us/">About us</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/get-involved/">Get involved</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+</div></div>
+<!-- /wp:cover -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">Who we are</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">A youth-led environmental organisation</h2>
+<!-- /wp:heading -->
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:paragraph -->
+<p>Environmental Hub Uganda (Bricks Environment and Climate Hub Initiative Uganda) is a youth-led non-governmental organisation dedicated to environmental conservation, climate resilience and sustainable development. We empower youth, women and communities to design and implement innovative, sustainable solutions to environmental challenges.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:paragraph -->
+<p>Established in 2023 and registered as an NGO under the laws of Uganda, EHUG advances environmental sustainability, climate action, biodiversity conservation, research, innovation and community resilience across the country.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"secondary"} -->
+<div class="wp-block-group alignfull has-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">Mission &amp;amp; vision</p>
+<!-- /wp:paragraph -->
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-bordered","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-bordered">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Our Mission</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>To promote community involvement in creating a sustainable environment for generations.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-bordered","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-bordered">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Our Vision</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Creating a sustainable environment for improved quality of life and socioeconomic transformation.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">Core activities</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">What we do</h2>
+<!-- /wp:heading -->
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Climate Mitigation &amp; Adaptation</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Implementing climate-smart agricultural practices and promoting disaster-resilient community strategies to help communities adapt to and mitigate the impacts of climate change.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Conservation &amp; Restoration</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Running tree-planting initiatives and ecosystem protection programmes that restore landscapes, protect biodiversity and strengthen community stewardship of natural resources.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Environmental Education</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Leading advocacy and awareness programmes to build capacity and empower the next generation of environmental change agents through schools, universities and community outreach.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Research &amp; Innovation</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Acting as a platform for dialogue, innovation and evidence-based environmental policy — supporting research, knowledge generation and practical innovation for climate action and sustainable development.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"secondary"} -->
+<div class="wp-block-group alignfull has-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">Director&#x27;s message</p>
+<!-- /wp:paragraph -->
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:image {"sizeSlug":"large","className":"is-style-envhub-card"} -->
+<figure class="wp-block-image size-large is-style-envhub-card"><img src="https://envhub-ug.org/wp-content/themes/envhub-blocks/assets/img/director.jpg" alt="Executive Director, Environmental Hub Uganda"/></figure>
+<!-- /wp:image -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">A message from our Team Lead</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Uganda&rsquo;s landscapes are changing fast, and the communities who depend on them most directly are the ones carrying the cost. Our answer is not to work around those communities but through them.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Every programme we run &mdash; restoration, education, research, innovation &mdash; is designed with the people who will live with its results. That is what makes the work last.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">From the field</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Latest stories</h2>
+<!-- /wp:heading -->
+<!-- wp:query {"queryId":1,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":false},"align":"wide","layout":{"type":"default"}} -->
+<div class="wp-block-query alignwide"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+<!-- wp:post-featured-image {"isLink":true} /-->
+<!-- wp:post-title {"isLink":true,"level":3,"fontSize":"medium"} /-->
+<!-- wp:post-excerpt {"excerptLength":24} /-->
+<!-- /wp:post-template --></div>
+<!-- /wp:query -->
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/blog/">Read the blog</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"secondary"} -->
+<div class="wp-block-group alignfull has-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">Partners</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Who we work with</h2>
+<!-- /wp:heading -->
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Kyambogo University</h3>
+<!-- /wp:heading -->
+
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Makerere University</h3>
+<!-- /wp:heading -->
+
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">ARIEC</h3>
+<!-- /wp:heading -->
+
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">KCFS Lab</h3>
+<!-- /wp:heading -->
+
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Gayaza Girls School</h3>
+<!-- /wp:heading -->
+
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Kyaka II Host Communities</h3>
+<!-- /wp:heading -->
+
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"brand-dark"} -->
+<div class="wp-block-group alignfull has-brand-dark-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:heading {"textAlign":"center","textColor":"base"} -->
+<h2 class="wp-block-heading has-text-align-center has-base-color has-text-color">Join the work</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"align":"center","textColor":"base"} -->
+<p class="has-text-align-center has-base-color has-text-color">Volunteer, become a member, or partner with us on a jointly designed initiative.</p>
+<!-- /wp:paragraph -->
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/get-involved/">Get involved</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/">Contact us</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->]]></content:encoded>
+    <excerpt:encoded><![CDATA[Youth-led environmental conservation, climate resilience and sustainable development in Uganda.]]></excerpt:encoded>
+    <wp:post_id>101</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[home]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>1</wp:menu_order>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+      <wp:meta_value><![CDATA[default]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[About Us]]></title>
+    <link>https://envhub-ug.org/about-us/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=102</guid>
+    <description></description>
+    <content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"brand-dark"} -->
+<div class="wp-block-group alignfull has-brand-dark-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:heading {"level":1,"textColor":"base","style":{"typography":{"fontSize":"clamp(2rem,4vw,3rem)"}}} -->
+<h1 class="wp-block-heading has-base-color has-text-color" style="font-size:clamp(2rem,4vw,3rem)">About Us</h1>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"textColor":"base"} -->
+<p class="has-base-color has-text-color">Bricks Environment and Climate Hub Initiative Uganda — a youth-led organisation for environmental conservation, climate resilience and sustainable development.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">Who we are</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">A youth-led environmental organisation</h2>
+<!-- /wp:heading -->
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:paragraph -->
+<p>Environmental Hub Uganda (Bricks Environment and Climate Hub Initiative Uganda) is a youth-led non-governmental organisation dedicated to environmental conservation, climate resilience and sustainable development. We empower youth, women and communities to design and implement innovative, sustainable solutions to environmental challenges.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:paragraph -->
+<p>The organisation is legally registered as a Non-Governmental Organisation under the laws of Uganda and operates under the name Bricks Environment and Climate Hub Initiative Uganda, commonly referred to as Environmental Hub Uganda (EHUG). Established in 2023, it advances environmental sustainability, climate action, biodiversity conservation, research, innovation and community resilience across Uganda.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"secondary"} -->
+<div class="wp-block-group alignfull has-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-bordered","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-bordered">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Our Mission</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>To promote community involvement in creating a sustainable environment for generations.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-bordered","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-bordered">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Our Vision</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Creating a sustainable environment for improved quality of life and socioeconomic transformation.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">What guides us</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Core Values</h2>
+<!-- /wp:heading -->
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">01 Transparency</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Open and accountable in all our actions and decisions.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">02 Integrity</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Upholding honesty, ethics and consistency in our work.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">03 Compassion</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Serving communities with empathy and care for people and nature.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">04 Innovativeness</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Embracing creative, research-driven and practical solutions.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">05 Inclusivity</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Ensuring equitable participation of youth, women, persons with disabilities and marginalised groups.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"secondary"} -->
+<div class="wp-block-group alignfull has-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">Legal status</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Registered and accountable</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Environmental Hub Uganda has legal personality, enabling it to enter into contracts, receive grants and donations, implement projects, and establish partnerships with government institutions, development partners, academic institutions and the private sector. Full governance detail — the Board of Trustees, management team and accountability systems — is set out on the <a href="/team-governance/">Team &amp; Governance</a> page.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">Core activities</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Where we focus</h2>
+<!-- /wp:heading -->
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Climate Mitigation &amp; Adaptation</h3>
+<!-- /wp:heading -->
+
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Conservation &amp; Restoration</h3>
+<!-- /wp:heading -->
+
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Environmental Education</h3>
+<!-- /wp:heading -->
+
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Research &amp; Innovation</h3>
+<!-- /wp:heading -->
+
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/our-work/">See our work</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->]]></content:encoded>
+    <excerpt:encoded><![CDATA[Who we are: a youth-led Ugandan organisation for conservation, climate resilience and sustainable development.]]></excerpt:encoded>
+    <wp:post_id>102</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[about-us]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>2</wp:menu_order>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+      <wp:meta_value><![CDATA[default]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Our Work]]></title>
+    <link>https://envhub-ug.org/our-work/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=103</guid>
+    <description></description>
+    <content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"brand-dark"} -->
+<div class="wp-block-group alignfull has-brand-dark-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:heading {"level":1,"textColor":"base","style":{"typography":{"fontSize":"clamp(2rem,4vw,3rem)"}}} -->
+<h1 class="wp-block-heading has-base-color has-text-color" style="font-size:clamp(2rem,4vw,3rem)">Our Work</h1>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"textColor":"base"} -->
+<p class="has-base-color has-text-color">Four core activities carry our mandate: climate mitigation and adaptation, conservation and restoration, environmental education, and research and innovation.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">01</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Climate Mitigation &amp; Adaptation</h2>
+<!-- /wp:heading -->
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:paragraph -->
+<p>Implementing climate-smart agricultural practices and promoting disaster-resilient community strategies to help communities adapt to and mitigate the impacts of climate change.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Climate-smart agriculture demonstration and training</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Disaster preparedness and community resilience planning</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Adaptation support for smallholder farming households</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"secondary"} -->
+<div class="wp-block-group alignfull has-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">02</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Conservation &amp; Restoration</h2>
+<!-- /wp:heading -->
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:paragraph -->
+<p>Running tree-planting initiatives and ecosystem protection programmes that restore landscapes, protect biodiversity and strengthen community stewardship of natural resources.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Indigenous and fruit tree growing campaigns</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Degraded landscape and ecosystem restoration</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Community custodianship of natural resources</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">03</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Environmental Education</h2>
+<!-- /wp:heading -->
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:paragraph -->
+<p>Leading advocacy and awareness programmes to build capacity and empower the next generation of environmental change agents through schools, universities and community outreach.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>School and university outreach programmes</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Youth capacity-building workshops</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Community advocacy and awareness campaigns</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"secondary"} -->
+<div class="wp-block-group alignfull has-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">04</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Research &amp; Innovation</h2>
+<!-- /wp:heading -->
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:paragraph -->
+<p>Acting as a platform for dialogue, innovation and evidence-based environmental policy — supporting research, knowledge generation and practical innovation for climate action and sustainable development.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Field research with academic partners</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Innovation boot camps and green enterprise mentorship</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Evidence for environmental policy dialogue</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->]]></content:encoded>
+    <excerpt:encoded><![CDATA[Our core activities across climate action, restoration, education, research and innovation.]]></excerpt:encoded>
+    <wp:post_id>103</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[our-work]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>3</wp:menu_order>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+      <wp:meta_value><![CDATA[default]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Our Impact]]></title>
+    <link>https://envhub-ug.org/impact/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=104</guid>
+    <description></description>
+    <content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"brand-dark"} -->
+<div class="wp-block-group alignfull has-brand-dark-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:heading {"level":1,"textColor":"base","style":{"typography":{"fontSize":"clamp(2rem,4vw,3rem)"}}} -->
+<h1 class="wp-block-heading has-base-color has-text-color" style="font-size:clamp(2rem,4vw,3rem)">Our Impact</h1>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"textColor":"base"} -->
+<p class="has-base-color has-text-color">Community-based environmental and climate action across Uganda, with a strong focus on biodiversity conservation, ecosystem restoration, climate resilience, environmental education and youth empowerment.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">5,000+</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Young people reached</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">4</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Districts of active restoration</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">8</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Core staff, plus fellows and volunteers</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">2019</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Community work began</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"secondary"} -->
+<div class="wp-block-group alignfull has-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">Relevant experience</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Programmes and results</h2>
+<!-- /wp:heading -->
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">2022 – Present</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Community Restoration and Tree Planting</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Tree-growing and ecosystem restoration campaigns in Kampala, Wakiso, Mukono and Kyegegwa District (Kyaka II refugee host communities), promoting indigenous and fruit tree planting, environmental awareness and community participation in landscape restoration.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p><a href="/community-restoration-tree-planting/">Read the story →</a></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">2023 – Present</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Climate and Environmental Education</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Environmental awareness campaigns, school outreach programmes and youth capacity-building workshops at Kyambogo University, Makerere University, Gayaza Girls School and community groups across Central Uganda, reaching over 5,000 young people.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p><a href="/climate-environmental-education/">Read the story →</a></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">2024 – Present</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Research and Community-Based Conservation</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Environmental research and field studies on biodiversity, waste management and climate resilience in collaboration with Kyambogo University, including community engagement in Kyaka II Refugee Settlement and surrounding host communities.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p><a href="/research-community-based-conservation/">Read the story →</a></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">2022 – Present</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Youth Innovation and Green Skills</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Innovation boot camps, hackathons and mentorship programmes that equip young people with practical solutions in climate action, waste management and green entrepreneurship.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p><a href="/youth-innovation-green-skills/">Read the story →</a></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">2025 – Present</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Climate Finance and Sustainable Development</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Leading the establishment of the Kyambogo University Climate Finance Solutions Lab (KCFS Lab) to strengthen climate finance knowledge, research and access for youth, local governments, researchers and community organisations.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p><a href="/kcfs-lab-climate-finance/">Read the story →</a></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->]]></content:encoded>
+    <excerpt:encoded><![CDATA[Results and experience from our environmental and climate programmes in Uganda.]]></excerpt:encoded>
+    <wp:post_id>104</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[impact]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>4</wp:menu_order>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+      <wp:meta_value><![CDATA[default]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Team & Governance]]></title>
+    <link>https://envhub-ug.org/team-governance/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=105</guid>
+    <description></description>
+    <content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"brand-dark"} -->
+<div class="wp-block-group alignfull has-brand-dark-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:heading {"level":1,"textColor":"base","style":{"typography":{"fontSize":"clamp(2rem,4vw,3rem)"}}} -->
+<h1 class="wp-block-heading has-base-color has-text-color" style="font-size:clamp(2rem,4vw,3rem)">Team &amp; Governance</h1>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"textColor":"base"} -->
+<p class="has-base-color has-text-color">Organisational structure, governance and administration of Bricks Environment and Climate Hub Initiative Uganda (EHUG).</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">Legal status</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">A registered Ugandan NGO</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Environmental Hub Uganda is legally registered in Uganda as a Non-Governmental Organisation and operates under the name Bricks Environment and Climate Hub Initiative Uganda, commonly referred to as Environmental Hub Uganda (EHUG). The organisation has legal personality, enabling it to enter into contracts, receive grants and donations, implement projects, and establish partnerships with government institutions, development partners, academic institutions and the private sector.</p>
+<!-- /wp:paragraph -->
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Supporting legal documentation (attached as annexes)</h3>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Certificate of Registration / Incorporation</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>NGO Registration Certificate</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Memorandum and Articles / Constitution</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Tax Identification Number (TIN) Certificate</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"secondary"} -->
+<div class="wp-block-group alignfull has-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">Hierarchy of leadership</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">How we are organised</h2>
+<!-- /wp:heading -->
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Level 1 — The Board of Trustees</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Strategic leadership, policy oversight, fiduciary guidance and organisational accountability.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Level 2 — The Top Management</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Executive management led by the Team Lead, responsible for day-to-day operations and programme implementation.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Level 3 — The Secretariat</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Officers and project teams delivering programmes in the field.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Secretariat roles</h3>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Team Lead</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Legal and Ethical Officer</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Finance and Administration Officer</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Partnerships and Development</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Publicity and Mobilization Officer</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>IT and Content Development Officer</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Administration Assistants</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Project officers</h3>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Research, Innovation and Development</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Community Advocacy and Education</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Climate Action and Disaster Resilience</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Climate Smart Agriculture</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Culture, Eco-tourism and Cottage Industry</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">Governance structure</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Oversight separated from management</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Environmental Hub Uganda is governed by a Board of Trustees that approves strategic plans, budgets and organisational policies, and ensures compliance with statutory and donor requirements. The governance structure is further supported by a Patron, who provides institutional guidance and strategic support; a Legal Advisor, who provides legal counsel and ensures regulatory compliance; and an Executive Management Team led by the Team Lead (Executive Director). This arrangement separates oversight from management, ensuring good governance and adherence to nonprofit best practice.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"secondary"} -->
+<div class="wp-block-group alignfull has-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">Administration and staffing</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Eight core positions</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>The organisation operates with a multidisciplinary management team of eight core personnel, complemented by volunteers, interns, consultants and project-based technical experts engaged according to programme needs.</p>
+<!-- /wp:paragraph -->
+<!-- wp:table {"align":"wide","className":"is-style-stripes"} -->
+<figure class="wp-block-table alignwide is-style-stripes"><table><thead><tr><th>Position</th><th>Key responsibilities</th></tr></thead><tbody><tr><td>Team Lead (Executive Director)</td><td>Strategic leadership, organisational management, partnership development, resource mobilisation and overall programme oversight.</td></tr>
+<tr><td>Finance and Administration Manager</td><td>Financial management, budgeting, procurement, accounting, compliance, human resource administration and organisational operations.</td></tr>
+<tr><td>Programs and Advocacy Manager</td><td>Programme design and implementation, stakeholder engagement, policy advocacy, monitoring and evaluation, and project coordination.</td></tr>
+<tr><td>Communications and Human Resource Manager</td><td>Organisational communications, branding, public relations, staff welfare, recruitment and institutional communications.</td></tr>
+<tr><td>Partnerships and Resource Mobilization Manager</td><td>Strategic partnerships, donor engagement, fundraising, proposal development and institutional networking.</td></tr>
+<tr><td>Media and Digital Communications Manager</td><td>Digital communications, website management, media relations, content development and social media management.</td></tr>
+<tr><td>Partnerships and Resource Mobilization Officer</td><td>Supports partnership development, stakeholder engagement, proposal writing and donor relations.</td></tr>
+<tr><td>Research and Innovations Officer</td><td>Research coordination, innovation development, knowledge management, data analysis and technical support for evidence-based programming.</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+<!-- wp:paragraph -->
+<p>Beyond the core staff, the organisation maintains a network of environmental experts, researchers, university collaborators, volunteers and student fellows who support project implementation across Uganda.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">Accountability</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Governance and accountability mechanisms</h2>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Board oversight of strategic and financial decisions.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Defined organisational policies and administrative procedures.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Financial management systems with regular reporting.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Project planning, monitoring, evaluation, accountability and learning (MEAL) mechanisms.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Procurement and asset management procedures.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Human resource policies governing recruitment, performance management and staff welfare.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Compliance with statutory reporting obligations and donor requirements.</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+<!-- wp:paragraph -->
+<p>These systems enable the organisation to effectively manage grants, partnerships and multi-stakeholder initiatives.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->]]></content:encoded>
+    <excerpt:encoded><![CDATA[Governance structure, leadership and staffing of Environmental Hub Uganda.]]></excerpt:encoded>
+    <wp:post_id>105</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[team-governance]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>5</wp:menu_order>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+      <wp:meta_value><![CDATA[default]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Get Involved]]></title>
+    <link>https://envhub-ug.org/get-involved/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=106</guid>
+    <description></description>
+    <content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"brand-dark"} -->
+<div class="wp-block-group alignfull has-brand-dark-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:heading {"level":1,"textColor":"base","style":{"typography":{"fontSize":"clamp(2rem,4vw,3rem)"}}} -->
+<h1 class="wp-block-heading has-base-color has-text-color" style="font-size:clamp(2rem,4vw,3rem)">Get Involved</h1>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"textColor":"base"} -->
+<p class="has-base-color has-text-color">Membership, volunteering, partnerships and donations — several ways to join the work of building a sustainable environment for generations.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">Membership</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Annual subscription packages</h2>
+<!-- /wp:heading -->
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">General Membership</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.5rem","fontWeight":"700"}},"textColor":"primary"} -->
+<p class="has-primary-color has-text-color" style="font-size:1.5rem;font-weight:700">UGX 20,000</p>
+<!-- /wp:paragraph -->
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Basic access to environmental resources</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Access to events and community</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Membership certificate</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/">Subscribe</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Silver Membership</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.5rem","fontWeight":"700"}},"textColor":"primary"} -->
+<p class="has-primary-color has-text-color" style="font-size:1.5rem;font-weight:700">UGX 50,000</p>
+<!-- /wp:paragraph -->
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Exclusive workshops</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Networking opportunities</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Priority access to selected programmes</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Membership certificate</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/">Subscribe</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Gold Membership</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.5rem","fontWeight":"700"}},"textColor":"primary"} -->
+<p class="has-primary-color has-text-color" style="font-size:1.5rem;font-weight:700">UGX 150,000</p>
+<!-- /wp:paragraph -->
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Personalised consultations</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Advanced workshops</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Priority registration for major events</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Membership certificate and environmental pack</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/">Subscribe</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Platinum Membership</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.5rem","fontWeight":"700"}},"textColor":"primary"} -->
+<p class="has-primary-color has-text-color" style="font-size:1.5rem;font-weight:700">UGX 500,000</p>
+<!-- /wp:paragraph -->
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>VIP access to all events</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>One-on-one expert sessions</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Recognition as a key supporter</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Membership certificate and environmental family pack</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/">Subscribe</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+<!-- wp:paragraph -->
+<p>Subscriptions are payable annually to the organisation&rsquo;s treasury.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"secondary"} -->
+<div class="wp-block-group alignfull has-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">Other ways to help</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Volunteer, partner, give</h2>
+<!-- /wp:heading -->
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Volunteer</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Join field days, restoration campaigns and school outreach. Tell us your background and interests and we will match you to an active programme.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Partner with us</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>We work with community groups, schools, universities, local governments, cooperatives and development partners on jointly designed initiatives.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Donate</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Contributions fund seedlings, workshops, research and youth innovation support. Get in touch and we will share our current funding priorities.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/">Talk to our team</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->]]></content:encoded>
+    <excerpt:encoded><![CDATA[Join as a member, volunteer, partner or donor.]]></excerpt:encoded>
+    <wp:post_id>106</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[get-involved]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>6</wp:menu_order>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+      <wp:meta_value><![CDATA[default]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Resources]]></title>
+    <link>https://envhub-ug.org/resources/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=107</guid>
+    <description></description>
+    <content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"brand-dark"} -->
+<div class="wp-block-group alignfull has-brand-dark-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:heading {"level":1,"textColor":"base","style":{"typography":{"fontSize":"clamp(2rem,4vw,3rem)"}}} -->
+<h1 class="wp-block-heading has-base-color has-text-color" style="font-size:clamp(2rem,4vw,3rem)">Resources</h1>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"textColor":"base"} -->
+<p class="has-base-color has-text-color">Frequently asked questions, organisational documents and writing from our field and research programmes.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">FAQs</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Frequently asked questions</h2>
+<!-- /wp:heading -->
+<!-- wp:details -->
+<details class="wp-block-details"><summary>What is Bricks Environment and Climate Hub Initiative Uganda (EHUG)?</summary>
+<!-- wp:paragraph -->
+<p>A youth-led non-governmental organisation based in Uganda, dedicated to environmental conservation, advocacy, capacity building, climate mitigation and adaptation, research, innovation and sustainable development.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+<!-- wp:details -->
+<details class="wp-block-details"><summary>What is the mission of Environmental Hub Uganda?</summary>
+<!-- wp:paragraph -->
+<p>To promote community involvement in creating a sustainable environment for generations.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+<!-- wp:details -->
+<details class="wp-block-details"><summary>What initiatives does EHUG undertake?</summary>
+<!-- wp:paragraph -->
+<p>Research and innovation, advocacy and environmental education programmes, tree planting, waste management programmes and sustainable development projects.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+<!-- wp:details -->
+<details class="wp-block-details"><summary>How can I get involved?</summary>
+<!-- wp:paragraph -->
+<p>Participate in our programmes, volunteer your time, contribute to our initiatives, or subscribe as a member. See the Get Involved page for membership packages.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Do you support environmental start-ups?</summary>
+<!-- wp:paragraph -->
+<p>Yes. We support start-ups across environmental sectors, deliberately prioritising ventures led by women, youth and persons with disabilities.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"secondary"} -->
+<div class="wp-block-group alignfull has-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">Documents</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Organisational documents</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>These statutory documents are available on request for partners, donors and grant processes.</p>
+<!-- /wp:paragraph -->
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Certificate of Registration / Incorporation</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>NGO Registration Certificate</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Memorandum and Articles / Constitution</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Tax Identification Number (TIN) Certificate</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">Publications</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">From our programmes</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p><strong>Conservation</strong> — <a href="/community-restoration-tree-planting/">Growing forests with the people who tend them</a></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p><strong>Education</strong> — <a href="/climate-environmental-education/">Reaching 5,000 young people with climate education</a></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p><strong>Research</strong> — <a href="/research-community-based-conservation/">Building the evidence base for community conservation</a></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p><strong>Innovation</strong> — <a href="/youth-innovation-green-skills/">Boot camps, hackathons and the business of green skills</a></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p><strong>Climate Finance</strong> — <a href="/kcfs-lab-climate-finance/">Opening up climate finance through the KCFS Lab</a></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->]]></content:encoded>
+    <excerpt:encoded><![CDATA[FAQs, documents and writing from our programmes.]]></excerpt:encoded>
+    <wp:post_id>107</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[resources]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>7</wp:menu_order>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+      <wp:meta_value><![CDATA[default]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Blog]]></title>
+    <link>https://envhub-ug.org/blog/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=108</guid>
+    <description></description>
+    <content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"brand-dark"} -->
+<div class="wp-block-group alignfull has-brand-dark-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:heading {"level":1,"textColor":"base","style":{"typography":{"fontSize":"clamp(2rem,4vw,3rem)"}}} -->
+<h1 class="wp-block-heading has-base-color has-text-color" style="font-size:clamp(2rem,4vw,3rem)">Blog</h1>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"textColor":"base"} -->
+<p class="has-base-color has-text-color">Notes, research and stories from our work across Uganda — restoration, education, research, innovation and climate finance.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->]]></content:encoded>
+    <excerpt:encoded><![CDATA[Articles and field notes from Environmental Hub Uganda.]]></excerpt:encoded>
+    <wp:post_id>108</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[blog]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>8</wp:menu_order>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+      <wp:meta_value><![CDATA[default]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Contact Us]]></title>
+    <link>https://envhub-ug.org/contact/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=109</guid>
+    <description></description>
+    <content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"brand-dark"} -->
+<div class="wp-block-group alignfull has-brand-dark-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:heading {"level":1,"textColor":"base","style":{"typography":{"fontSize":"clamp(2rem,4vw,3rem)"}}} -->
+<h1 class="wp-block-heading has-base-color has-text-color" style="font-size:clamp(2rem,4vw,3rem)">Contact Us</h1>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"textColor":"base"} -->
+<p class="has-base-color has-text-color">Partnerships, membership, volunteering or media — send us a message and the relevant team will respond.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:paragraph {"className":"is-style-envhub-eyebrow","textColor":"primary"} -->
+<p class="is-style-envhub-eyebrow has-primary-color has-text-color">Get in touch</p>
+<!-- /wp:paragraph -->
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Contact details</h3>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Kampala, Uganda</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>info@envhub-ug.org</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>+256 700 000 000</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:group {"className":"is-style-envhub-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-envhub-card">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Send us a message</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Add your preferred contact form block here (any form plugin), or email us directly at <a href="mailto:info@envhub-ug.org">info@envhub-ug.org</a>.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->]]></content:encoded>
+    <excerpt:encoded><![CDATA[Contact Environmental Hub Uganda.]]></excerpt:encoded>
+    <wp:post_id>109</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[contact]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>9</wp:menu_order>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+      <wp:meta_value><![CDATA[default]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Growing forests with the people who tend them]]></title>
+    <link>https://envhub-ug.org/community-restoration-tree-planting/</link>
+    <pubDate>Mon, 18 May 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=110</guid>
+    <description></description>
+    <content:encoded><![CDATA[<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://envhub-ug.org/wp-content/themes/envhub-blocks/assets/img/hero-1.jpg" alt="Growing forests with the people who tend them"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Since 2022 our restoration teams have worked alongside households, schools and local councils to put indigenous and fruit trees back into landscapes that have been steadily thinning out. The planting day is the easy part. Survival rates depend on who feels ownership of the seedling twelve months later.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In Kyegegwa District, where refugee and host communities share fragile land and firewood demand is high, we pair every planting site with a community caretaker arrangement. Fruit species are deliberately included so that the trees carry household value, not just environmental value.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Restoration only holds when the community sees a direct return. Fodder, fruit, shade, soil stability and windbreaks are all part of the pitch — and they are the reason a plot still has trees standing three seasons later.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Our next phase focuses on nursery capacity within the communities themselves, so that seedling supply no longer depends on a single external delivery each season.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+    <excerpt:encoded><![CDATA[What we have learned from tree-growing and ecosystem restoration campaigns in Kampala, Wakiso, Mukono and the Kyaka II refugee host communities.]]></excerpt:encoded>
+    <wp:post_id>110</wp:post_id>
+    <wp:post_date><![CDATA[2026-05-18 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-05-18 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[community-restoration-tree-planting]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>0</wp:menu_order>
+    <wp:post_type><![CDATA[post]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="category" nicename="conservation"><![CDATA[Conservation]]></category>
+  </item>
+  <item>
+    <title><![CDATA[Reaching 5,000 young people with climate education]]></title>
+    <link>https://envhub-ug.org/climate-environmental-education/</link>
+    <pubDate>Thu, 02 Apr 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=111</guid>
+    <description></description>
+    <content:encoded><![CDATA[<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://envhub-ug.org/wp-content/themes/envhub-blocks/assets/img/hero-2.jpg" alt="Reaching 5,000 young people with climate education"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Environmental education is the quietest part of our work and arguably the most durable. Since 2023 our awareness campaigns and workshops have reached more than 5,000 young people across Central Uganda.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The format is deliberately practical: waste audits on campus, seedling nurseries at schools, and sessions where students design a response to an environmental problem they can actually see from the classroom window.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>University partnerships give the programme depth. At Kyambogo and Makerere, student fellows carry sessions into their own faculties and communities, extending reach far beyond what a small secretariat could deliver alone.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>We measure success by what happens after the workshop — the clubs that keep meeting, the nurseries that keep producing, and the students who go on to join our field research.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+    <excerpt:encoded><![CDATA[School outreach and youth capacity-building at Kyambogo University, Makerere University, Gayaza Girls School and community groups across Central Uganda.]]></excerpt:encoded>
+    <wp:post_id>111</wp:post_id>
+    <wp:post_date><![CDATA[2026-04-02 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-04-02 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[climate-environmental-education]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>0</wp:menu_order>
+    <wp:post_type><![CDATA[post]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="category" nicename="education"><![CDATA[Education]]></category>
+  </item>
+  <item>
+    <title><![CDATA[Building the evidence base for community conservation]]></title>
+    <link>https://envhub-ug.org/research-community-based-conservation/</link>
+    <pubDate>Wed, 11 Feb 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=112</guid>
+    <description></description>
+    <content:encoded><![CDATA[<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://envhub-ug.org/wp-content/themes/envhub-blocks/assets/img/hero-3.jpg" alt="Building the evidence base for community conservation"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Too little accurate, timely information exists about environmental change on the ground in Uganda. Since 2024 we have supported field studies on biodiversity, waste management and climate resilience in collaboration with Kyambogo University.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Community-based conservation needs numbers as much as goodwill. Baseline surveys tell us which species are returning, how waste streams actually move through a settlement, and where resilience investments would matter most.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In Kyaka II Refugee Settlement and its host communities, research is designed with local participation from the start — residents help define the questions and collect the data, which makes the findings both more accurate and more usable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Findings feed directly into programme design and into policy conversations with local government and development partners.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+    <excerpt:encoded><![CDATA[Field studies on biodiversity, waste management and climate resilience with Kyambogo University, including work in Kyaka II Refugee Settlement.]]></excerpt:encoded>
+    <wp:post_id>112</wp:post_id>
+    <wp:post_date><![CDATA[2026-02-11 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-02-11 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[research-community-based-conservation]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>0</wp:menu_order>
+    <wp:post_type><![CDATA[post]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="category" nicename="research"><![CDATA[Research]]></category>
+  </item>
+  <item>
+    <title><![CDATA[Boot camps, hackathons and the business of green skills]]></title>
+    <link>https://envhub-ug.org/youth-innovation-green-skills/</link>
+    <pubDate>Thu, 27 Nov 2025 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=113</guid>
+    <description></description>
+    <content:encoded><![CDATA[<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://envhub-ug.org/wp-content/themes/envhub-blocks/assets/img/hero-1.jpg" alt="Boot camps, hackathons and the business of green skills"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Young Ugandans are not short of ideas for climate action. What they lack is a structured route from idea to a working, funded venture.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Our innovation boot camps and hackathons compress that route: a problem brief drawn from real community needs, a few intense days of prototyping, and then months of mentorship for the teams that show promise.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Waste management and circular-economy ventures dominate the pipeline, followed by clean energy and climate-smart agriculture tools. We deliberately prioritise teams led by women, youth and persons with disabilities.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Green skills training runs alongside, so participants leave with capabilities that are employable whether or not their own venture takes off.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+    <excerpt:encoded><![CDATA[How innovation boot camps and mentorship equip young people with practical solutions in climate action, waste management and green entrepreneurship.]]></excerpt:encoded>
+    <wp:post_id>113</wp:post_id>
+    <wp:post_date><![CDATA[2025-11-27 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2025-11-27 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[youth-innovation-green-skills]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>0</wp:menu_order>
+    <wp:post_type><![CDATA[post]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="category" nicename="innovation"><![CDATA[Innovation]]></category>
+  </item>
+  <item>
+    <title><![CDATA[Opening up climate finance through the KCFS Lab]]></title>
+    <link>https://envhub-ug.org/kcfs-lab-climate-finance/</link>
+    <pubDate>Tue, 09 Sep 2025 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=114</guid>
+    <description></description>
+    <content:encoded><![CDATA[<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://envhub-ug.org/wp-content/themes/envhub-blocks/assets/img/hero-2.jpg" alt="Opening up climate finance through the KCFS Lab"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Climate finance exists, but the pathways to it are opaque for the youth groups, local governments and community organisations who most need it.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The Kyambogo University Climate Finance Solutions Lab (KCFS Lab), which we are leading the establishment of from 2025, is designed to close that gap — combining research, training and hands-on proposal support.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The Lab brings together university researchers, local government planners and community organisations so that finance literacy is built where projects are actually designed.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Over time we expect the Lab to function as a standing resource for the region: a place to test proposal ideas, understand donor and fund requirements, and build the evidence a serious application needs.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+    <excerpt:encoded><![CDATA[Establishing the Kyambogo University Climate Finance Solutions Lab to strengthen climate finance knowledge, research and access.]]></excerpt:encoded>
+    <wp:post_id>114</wp:post_id>
+    <wp:post_date><![CDATA[2025-09-09 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2025-09-09 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[kcfs-lab-climate-finance]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>0</wp:menu_order>
+    <wp:post_type><![CDATA[post]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="category" nicename="climate-finance"><![CDATA[Climate Finance]]></category>
+  </item>
+  <item>
+    <title><![CDATA[About Us]]></title>
+    <link>https://envhub-ug.org/menu-item-115/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=115</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>115</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[menu-item-115]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>1</wp:menu_order>
+    <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="nav_menu" nicename="primary"><![CDATA[Primary]]></category>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+      <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+      <wp:meta_value><![CDATA[0]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+      <wp:meta_value><![CDATA[102]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+      <wp:meta_value><![CDATA[page]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+      <wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Our Work]]></title>
+    <link>https://envhub-ug.org/menu-item-116/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=116</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>116</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[menu-item-116]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>2</wp:menu_order>
+    <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="nav_menu" nicename="primary"><![CDATA[Primary]]></category>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+      <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+      <wp:meta_value><![CDATA[0]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+      <wp:meta_value><![CDATA[103]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+      <wp:meta_value><![CDATA[page]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+      <wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Impact]]></title>
+    <link>https://envhub-ug.org/menu-item-117/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=117</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>117</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[menu-item-117]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>3</wp:menu_order>
+    <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="nav_menu" nicename="primary"><![CDATA[Primary]]></category>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+      <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+      <wp:meta_value><![CDATA[0]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+      <wp:meta_value><![CDATA[104]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+      <wp:meta_value><![CDATA[page]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+      <wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Team]]></title>
+    <link>https://envhub-ug.org/menu-item-118/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=118</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>118</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[menu-item-118]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>4</wp:menu_order>
+    <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="nav_menu" nicename="primary"><![CDATA[Primary]]></category>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+      <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+      <wp:meta_value><![CDATA[0]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+      <wp:meta_value><![CDATA[105]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+      <wp:meta_value><![CDATA[page]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+      <wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Get Involved]]></title>
+    <link>https://envhub-ug.org/menu-item-119/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=119</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>119</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[menu-item-119]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>5</wp:menu_order>
+    <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="nav_menu" nicename="primary"><![CDATA[Primary]]></category>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+      <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+      <wp:meta_value><![CDATA[0]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+      <wp:meta_value><![CDATA[106]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+      <wp:meta_value><![CDATA[page]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+      <wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Resources]]></title>
+    <link>https://envhub-ug.org/menu-item-120/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=120</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>120</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[menu-item-120]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>6</wp:menu_order>
+    <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="nav_menu" nicename="primary"><![CDATA[Primary]]></category>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+      <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+      <wp:meta_value><![CDATA[0]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+      <wp:meta_value><![CDATA[107]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+      <wp:meta_value><![CDATA[page]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+      <wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Blog]]></title>
+    <link>https://envhub-ug.org/menu-item-121/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=121</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>121</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[menu-item-121]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>7</wp:menu_order>
+    <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="nav_menu" nicename="primary"><![CDATA[Primary]]></category>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+      <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+      <wp:meta_value><![CDATA[0]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+      <wp:meta_value><![CDATA[108]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+      <wp:meta_value><![CDATA[page]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+      <wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Contact]]></title>
+    <link>https://envhub-ug.org/menu-item-122/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=122</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>122</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[menu-item-122]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>8</wp:menu_order>
+    <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="nav_menu" nicename="primary"><![CDATA[Primary]]></category>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+      <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+      <wp:meta_value><![CDATA[0]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+      <wp:meta_value><![CDATA[109]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+      <wp:meta_value><![CDATA[page]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+      <wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[About Us]]></title>
+    <link>https://envhub-ug.org/menu-item-123/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=123</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>123</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[menu-item-123]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>1</wp:menu_order>
+    <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="nav_menu" nicename="footer"><![CDATA[Footer]]></category>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+      <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+      <wp:meta_value><![CDATA[0]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+      <wp:meta_value><![CDATA[102]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+      <wp:meta_value><![CDATA[page]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+      <wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Our Work]]></title>
+    <link>https://envhub-ug.org/menu-item-124/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=124</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>124</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[menu-item-124]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>2</wp:menu_order>
+    <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="nav_menu" nicename="footer"><![CDATA[Footer]]></category>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+      <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+      <wp:meta_value><![CDATA[0]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+      <wp:meta_value><![CDATA[103]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+      <wp:meta_value><![CDATA[page]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+      <wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Blog]]></title>
+    <link>https://envhub-ug.org/menu-item-125/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=125</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>125</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[menu-item-125]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>3</wp:menu_order>
+    <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="nav_menu" nicename="footer"><![CDATA[Footer]]></category>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+      <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+      <wp:meta_value><![CDATA[0]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+      <wp:meta_value><![CDATA[108]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+      <wp:meta_value><![CDATA[page]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+      <wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Contact]]></title>
+    <link>https://envhub-ug.org/menu-item-126/</link>
+    <pubDate>Mon, 05 Jan 2026 09:00:00 +0000</pubDate>
+    <dc:creator><![CDATA[envhub]]></dc:creator>
+    <guid isPermaLink="false">https://envhub-ug.org/?p=126</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>126</wp:post_id>
+    <wp:post_date><![CDATA[2026-01-05 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-01-05 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[menu-item-126]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>4</wp:menu_order>
+    <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="nav_menu" nicename="footer"><![CDATA[Footer]]></category>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+      <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+      <wp:meta_value><![CDATA[0]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+      <wp:meta_value><![CDATA[109]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+      <wp:meta_value><![CDATA[page]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+      <wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+      <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+</channel>
+</rss>
