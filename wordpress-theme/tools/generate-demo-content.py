@@ -965,6 +965,7 @@ def item(
 
 
 def build():
+    apply_cms_snapshot()
     items = []
     pid = 100
     page_ids = {}
@@ -981,15 +982,17 @@ def build():
                 pid,
                 "2026-01-05 09:00:00",
                 menu_order=order,
+                excerpt=PAGE_META.get(slug, ""),
                 meta={"_wp_page_template": "default"},
             )
         )
 
     for post in POSTS:
         pid += 1
+        img = post.get("cover_url") or f"{SITE}{IMG}/{post['image']}"
         content = "\n\n".join(
             [
-                f'<!-- wp:image {{"sizeSlug":"large"}} -->\n<figure class="wp-block-image size-large"><img src="{SITE}{IMG}/{post["image"]}" alt="{escape(post["title"])}"/></figure>\n<!-- /wp:image -->'
+                f'<!-- wp:image {{"sizeSlug":"large"}} -->\n<figure class="wp-block-image size-large"><img src="{img}" alt="{escape(post["title"])}"/></figure>\n<!-- /wp:image -->'
             ]
             + [p(escape(par)) for par in post["body"]]
         )
@@ -1008,36 +1011,55 @@ def build():
             )
         )
 
-    # Navigation menu
-    menu_items = []
-    order = 1
-    for title, slug, *_ in PAGES:
-        if slug == "home":
-            continue
-        pid += 1
-        menu_items.append(
-            item(
-                title,
-                f"menu-item-{pid}",
-                "",
-                "nav_menu_item",
-                pid,
-                "2026-01-05 09:00:00",
-                menu_order=order,
-                categories=[("nav_menu", "Primary", "primary")],
-                meta={
+    # Navigation menus (header -> "Primary", footer -> "Footer"), from the CMS
+    def menu_entries(location, term_name, term_slug):
+        entries = MENUS.get(location) or []
+        if not entries:
+            entries = [(t, s, "/" + s) for t, s, *_ in PAGES if s != "home"]
+        out = []
+        order = 1
+        for label, wp_slug, url in entries:
+            nonlocal pid
+            pid += 1
+            if wp_slug and wp_slug in page_ids:
+                meta = {
                     "_menu_item_type": "post_type",
                     "_menu_item_menu_item_parent": "0",
-                    "_menu_item_object_id": page_ids[slug],
+                    "_menu_item_object_id": page_ids[wp_slug],
                     "_menu_item_object": "page",
                     "_menu_item_target": "",
-                    "_menu_item_classes": "a:1:{i:0;s:0:\"\";}",
+                    "_menu_item_classes": 'a:1:{i:0;s:0:"";}',
                     "_menu_item_url": "",
-                },
+                }
+            else:
+                meta = {
+                    "_menu_item_type": "custom",
+                    "_menu_item_menu_item_parent": "0",
+                    "_menu_item_object_id": pid,
+                    "_menu_item_object": "custom",
+                    "_menu_item_target": "",
+                    "_menu_item_classes": 'a:1:{i:0;s:0:"";}',
+                    "_menu_item_url": url or "/",
+                }
+            out.append(
+                item(
+                    label,
+                    f"menu-item-{pid}",
+                    "",
+                    "nav_menu_item",
+                    pid,
+                    "2026-01-05 09:00:00",
+                    menu_order=order,
+                    categories=[("nav_menu", term_name, term_slug)],
+                    meta=meta,
+                )
             )
-        )
-        order += 1
-    items.extend(menu_items)
+            order += 1
+        return out
+
+    items.extend(menu_entries("header", "Primary", "primary"))
+    items.extend(menu_entries("footer", "Footer", "footer"))
+
 
     cats_xml = ""
     seen = set()
