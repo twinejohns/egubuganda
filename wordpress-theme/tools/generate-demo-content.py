@@ -1076,7 +1076,10 @@ def build():
     cats_xml += (
         "  <wp:term>\n    <wp:term_id>90</wp:term_id>\n    <wp:term_taxonomy>nav_menu</wp:term_taxonomy>\n"
         f"    <wp:term_slug>primary</wp:term_slug>\n    <wp:term_name>{cdata('Primary')}</wp:term_name>\n  </wp:term>\n"
+        "  <wp:term>\n    <wp:term_id>91</wp:term_id>\n    <wp:term_taxonomy>nav_menu</wp:term_taxonomy>\n"
+        f"    <wp:term_slug>footer</wp:term_slug>\n    <wp:term_name>{cdata('Footer')}</wp:term_name>\n  </wp:term>\n"
     )
+
 
     xml = f"""<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0"
