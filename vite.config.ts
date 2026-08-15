@@ -19,6 +19,7 @@ const selfHostPreset = process.env['NITRO_PRESET'];
 
 
 export default defineConfig({
+  ...(selfHostPreset ? { nitro: { preset: selfHostPreset } } : {}),
   plugins: [mcpPlugin()],
 
   vite: {
