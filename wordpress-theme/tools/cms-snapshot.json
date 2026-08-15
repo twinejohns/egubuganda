@@ -1,0 +1,359 @@
+{
+  "pages": [
+    {
+      "id": "f3c5a61e-0834-4b14-9650-ea47d4b705c3",
+      "slug": "home",
+      "title": "Environmental Hub Uganda",
+      "lead": "Community-based environmental and climate action across Uganda — conservation, restoration, education, research and youth empowerment.",
+      "body": "",
+      "meta_description": "Youth-led environmental conservation, climate resilience and sustainable development in Uganda.",
+      "published": true,
+      "sort_order": 0,
+      "created_at": "2026-08-11T19:05:10.276887+00:00",
+      "updated_at": "2026-08-11T19:05:10.276887+00:00"
+    },
+    {
+      "id": "de170cd4-2ca7-4abb-a85f-a8c8e9e47640",
+      "slug": "about",
+      "title": "About Us",
+      "lead": "Bricks Environment and Climate Hub Initiative Uganda — a youth-led organisation for environmental conservation, climate resilience and sustainable development.",
+      "body": "",
+      "meta_description": "Who we are: a youth-led Ugandan organisation for conservation, climate resilience and sustainable development.",
+      "published": true,
+      "sort_order": 1,
+      "created_at": "2026-08-11T19:05:10.276887+00:00",
+      "updated_at": "2026-08-11T19:05:10.276887+00:00"
+    },
+    {
+      "id": "fe27138b-cdaf-475c-b460-8e5161e6a4b0",
+      "slug": "our-work",
+      "title": "Our Work",
+      "lead": "Four core activities carry our mandate: climate mitigation and adaptation, conservation and restoration, environmental education, and research and innovation.",
+      "body": "",
+      "meta_description": "Our core activities across climate action, restoration, education, research and innovation.",
+      "published": true,
+      "sort_order": 2,
+      "created_at": "2026-08-11T19:05:10.276887+00:00",
+      "updated_at": "2026-08-11T19:05:10.276887+00:00"
+    },
+    {
+      "id": "3a023260-3521-4619-bc12-c5f7947eabb9",
+      "slug": "impact",
+      "title": "Our Impact",
+      "lead": "Community-based environmental and climate action across Uganda, with a strong focus on biodiversity conservation, ecosystem restoration, climate resilience, environmental education and youth empowerment.",
+      "body": "",
+      "meta_description": "Results and experience from our environmental and climate programmes in Uganda.",
+      "published": true,
+      "sort_order": 3,
+      "created_at": "2026-08-11T19:05:10.276887+00:00",
+      "updated_at": "2026-08-11T19:05:10.276887+00:00"
+    },
+    {
+      "id": "3a58e775-2d0d-4a26-9b7b-c07209d56f10",
+      "slug": "team",
+      "title": "Team & Governance",
+      "lead": "Organisational structure, governance and administration of Bricks Environment and Climate Hub Initiative Uganda (EHUG).",
+      "body": "",
+      "meta_description": "Governance structure, leadership and staffing of Environmental Hub Uganda.",
+      "published": true,
+      "sort_order": 4,
+      "created_at": "2026-08-11T19:05:10.276887+00:00",
+      "updated_at": "2026-08-11T19:05:10.276887+00:00"
+    },
+    {
+      "id": "9dfe88cf-d85b-4857-9848-1282f17d38c2",
+      "slug": "get-involved",
+      "title": "Get Involved",
+      "lead": "Membership, volunteering, partnerships and donations — several ways to join the work of building a sustainable environment for generations.",
+      "body": "",
+      "meta_description": "Join as a member, volunteer, partner or donor.",
+      "published": true,
+      "sort_order": 5,
+      "created_at": "2026-08-11T19:05:10.276887+00:00",
+      "updated_at": "2026-08-11T19:05:10.276887+00:00"
+    },
+    {
+      "id": "de5d64ae-1e74-4192-84e5-0df3b7d71561",
+      "slug": "resources",
+      "title": "Resources",
+      "lead": "Frequently asked questions, organisational documents and writing from our field and research programmes.",
+      "body": "",
+      "meta_description": "FAQs, documents and writing from our programmes.",
+      "published": true,
+      "sort_order": 6,
+      "created_at": "2026-08-11T19:05:10.276887+00:00",
+      "updated_at": "2026-08-11T19:05:10.276887+00:00"
+    },
+    {
+      "id": "ed7dd3b6-f5e3-4929-9f4b-7553a1506950",
+      "slug": "blog",
+      "title": "Blog",
+      "lead": "Notes, research and stories from our work across Uganda — restoration, education, research, innovation and climate finance.",
+      "body": "",
+      "meta_description": "Articles and field notes from Environmental Hub Uganda.",
+      "published": true,
+      "sort_order": 7,
+      "created_at": "2026-08-11T19:05:10.276887+00:00",
+      "updated_at": "2026-08-11T19:05:10.276887+00:00"
+    },
+    {
+      "id": "4d9437ab-cc5a-4364-bf9b-257ae4ee4109",
+      "slug": "contact",
+      "title": "Contact Us",
+      "lead": "Partnerships, membership, volunteering or media — send us a message and the relevant team will respond.",
+      "body": "",
+      "meta_description": "Contact Environmental Hub Uganda.",
+      "published": true,
+      "sort_order": 8,
+      "created_at": "2026-08-11T19:05:10.276887+00:00",
+      "updated_at": "2026-08-11T19:05:10.276887+00:00"
+    }
+  ],
+  "posts": [
+    {
+      "id": "f0d79e12-fcce-4b93-981d-82def658cebe",
+      "slug": "community-restoration-tree-planting",
+      "title": "Growing forests with the people who tend them",
+      "tag": "Conservation",
+      "excerpt": "What we have learned from tree-growing and ecosystem restoration campaigns in Kampala, Wakiso, Mukono and the Kyaka II refugee host communities.",
+      "body": "Since 2022 our restoration teams have worked alongside households, schools and local councils to put indigenous and fruit trees back into landscapes that have been steadily thinning out. The planting day is the easy part. Survival rates depend on who feels ownership of the seedling twelve months later.\n\nIn Kyegegwa District, where refugee and host communities share fragile land and firewood demand is high, we pair every planting site with a community caretaker arrangement. Fruit species are deliberately included so that the trees carry household value, not just environmental value.\n\nRestoration only holds when the community sees a direct return. Fodder, fruit, shade, soil stability and windbreaks are all part of the pitch — and they are the reason a plot still has trees standing three seasons later.\n\nOur next phase focuses on nursery capacity within the communities themselves, so that seedling supply no longer depends on a single external delivery each season.",
+      "cover_url": null,
+      "published": true,
+      "published_at": "2026-05-18T00:00:00+00:00",
+      "created_at": "2026-08-11T19:05:10.25617+00:00",
+      "updated_at": "2026-08-11T19:05:10.25617+00:00"
+    },
+    {
+      "id": "ac3fe96b-ddcd-40f6-9be1-ddb26ebd476d",
+      "slug": "climate-environmental-education",
+      "title": "Reaching 5,000 young people with climate education",
+      "tag": "Education",
+      "excerpt": "School outreach and youth capacity-building at Kyambogo University, Makerere University, Gayaza Girls School and community groups across Central Uganda.",
+      "body": "Environmental education is the quietest part of our work and arguably the most durable. Since 2023 our awareness campaigns and workshops have reached more than 5,000 young people across Central Uganda.\n\nThe format is deliberately practical: waste audits on campus, seedling nurseries at schools, and sessions where students design a response to an environmental problem they can actually see from the classroom window.\n\nUniversity partnerships give the programme depth. At Kyambogo and Makerere, student fellows carry sessions into their own faculties and communities, extending reach far beyond what a small secretariat could deliver alone.\n\nWe measure success by what happens after the workshop — the clubs that keep meeting, the nurseries that keep producing, and the students who go on to join our field research.",
+      "cover_url": null,
+      "published": true,
+      "published_at": "2026-04-02T00:00:00+00:00",
+      "created_at": "2026-08-11T19:05:10.25617+00:00",
+      "updated_at": "2026-08-11T19:05:10.25617+00:00"
+    },
+    {
+      "id": "3769a025-ec16-4a93-8e79-9793788ed3dc",
+      "slug": "research-community-based-conservation",
+      "title": "Building the evidence base for community conservation",
+      "tag": "Research",
+      "excerpt": "Field studies on biodiversity, waste management and climate resilience with Kyambogo University, including work in Kyaka II Refugee Settlement.",
+      "body": "Too little accurate, timely information exists about environmental change on the ground in Uganda. Since 2024 we have supported field studies on biodiversity, waste management and climate resilience in collaboration with Kyambogo University.\n\nCommunity-based conservation needs numbers as much as goodwill. Baseline surveys tell us which species are returning, how waste streams actually move through a settlement, and where resilience investments would matter most.\n\nIn Kyaka II Refugee Settlement and its host communities, research is designed with local participation from the start — residents help define the questions and collect the data, which makes the findings both more accurate and more usable.\n\nFindings feed directly into programme design and into policy conversations with local government and development partners.",
+      "cover_url": null,
+      "published": true,
+      "published_at": "2026-02-11T00:00:00+00:00",
+      "created_at": "2026-08-11T19:05:10.25617+00:00",
+      "updated_at": "2026-08-11T19:05:10.25617+00:00"
+    },
+    {
+      "id": "e9ac7edb-ab2c-43fa-b82a-d36fcda28cb6",
+      "slug": "youth-innovation-green-skills",
+      "title": "Boot camps, hackathons and the business of green skills",
+      "tag": "Innovation",
+      "excerpt": "How innovation boot camps and mentorship equip young people with practical solutions in climate action, waste management and green entrepreneurship.",
+      "body": "Young Ugandans are not short of ideas for climate action. What they lack is a structured route from idea to a working, funded venture.\n\nOur innovation boot camps and hackathons compress that route: a problem brief drawn from real community needs, a few intense days of prototyping, and then months of mentorship for the teams that show promise.\n\nWaste management and circular-economy ventures dominate the pipeline, followed by clean energy and climate-smart agriculture tools. We deliberately prioritise teams led by women, youth and persons with disabilities.\n\nGreen skills training runs alongside, so participants leave with capabilities that are employable whether or not their own venture takes off.",
+      "cover_url": null,
+      "published": true,
+      "published_at": "2025-11-27T00:00:00+00:00",
+      "created_at": "2026-08-11T19:05:10.25617+00:00",
+      "updated_at": "2026-08-11T19:05:10.25617+00:00"
+    },
+    {
+      "id": "61875ba3-365a-4ffc-a841-0403172a421a",
+      "slug": "kcfs-lab-climate-finance",
+      "title": "Opening up climate finance through the KCFS Lab",
+      "tag": "Climate Finance",
+      "excerpt": "Establishing the Kyambogo University Climate Finance Solutions Lab to strengthen climate finance knowledge, research and access.",
+      "body": "Climate finance exists, but the pathways to it are opaque for the youth groups, local governments and community organisations who most need it.\n\nThe Kyambogo University Climate Finance Solutions Lab (KCFS Lab), which we are leading the establishment of from 2025, is designed to close that gap — combining research, training and hands-on proposal support.\n\nThe Lab brings together university researchers, local government planners and community organisations so that finance literacy is built where projects are actually designed.\n\nOver time we expect the Lab to function as a standing resource for the region: a place to test proposal ideas, understand donor and fund requirements, and build the evidence a serious application needs.",
+      "cover_url": null,
+      "published": true,
+      "published_at": "2025-09-09T00:00:00+00:00",
+      "created_at": "2026-08-11T19:05:10.25617+00:00",
+      "updated_at": "2026-08-11T19:05:10.25617+00:00"
+    }
+  ],
+  "menu_items": [
+    {
+      "id": "cf638076-f53a-48bc-af15-3f4546734d7b",
+      "location": "header",
+      "label": "About Us",
+      "url": "/about",
+      "sort_order": 1,
+      "visible": true,
+      "created_at": "2026-08-11T19:05:10.293486+00:00",
+      "updated_at": "2026-08-11T19:05:10.293486+00:00"
+    },
+    {
+      "id": "ceb0a850-8015-438b-92b2-11bb4132ae1d",
+      "location": "header",
+      "label": "Our Work",
+      "url": "/our-work",
+      "sort_order": 2,
+      "visible": true,
+      "created_at": "2026-08-11T19:05:10.293486+00:00",
+      "updated_at": "2026-08-11T19:05:10.293486+00:00"
+    },
+    {
+      "id": "b009ca08-86af-4257-a41c-0bf2f9e80a8a",
+      "location": "header",
+      "label": "Impact",
+      "url": "/impact",
+      "sort_order": 3,
+      "visible": true,
+      "created_at": "2026-08-11T19:05:10.293486+00:00",
+      "updated_at": "2026-08-11T19:05:10.293486+00:00"
+    },
+    {
+      "id": "fa0a9d6f-e66b-4aca-8c70-8d3752eb88a3",
+      "location": "header",
+      "label": "Team",
+      "url": "/team",
+      "sort_order": 4,
+      "visible": true,
+      "created_at": "2026-08-11T19:05:10.293486+00:00",
+      "updated_at": "2026-08-11T19:05:10.293486+00:00"
+    },
+    {
+      "id": "f2e15c70-465f-4019-8823-70b28aa1d5c6",
+      "location": "header",
+      "label": "Get Involved",
+      "url": "/get-involved",
+      "sort_order": 5,
+      "visible": true,
+      "created_at": "2026-08-11T19:05:10.293486+00:00",
+      "updated_at": "2026-08-11T19:05:10.293486+00:00"
+    },
+    {
+      "id": "423225a2-29b6-4cf4-aa69-d135760954f9",
+      "location": "header",
+      "label": "Resources",
+      "url": "/resources",
+      "sort_order": 6,
+      "visible": true,
+      "created_at": "2026-08-11T19:05:10.293486+00:00",
+      "updated_at": "2026-08-11T19:05:10.293486+00:00"
+    },
+    {
+      "id": "b2887d78-55f5-4fda-923d-b79555de5279",
+      "location": "header",
+      "label": "Blog",
+      "url": "/blog",
+      "sort_order": 7,
+      "visible": true,
+      "created_at": "2026-08-11T19:05:10.293486+00:00",
+      "updated_at": "2026-08-11T19:05:10.293486+00:00"
+    },
+    {
+      "id": "f560094c-30a5-43c8-bead-ab2fcfc77c3e",
+      "location": "header",
+      "label": "Contact",
+      "url": "/contact",
+      "sort_order": 8,
+      "visible": true,
+      "created_at": "2026-08-11T19:05:10.293486+00:00",
+      "updated_at": "2026-08-11T19:05:10.293486+00:00"
+    },
+    {
+      "id": "a64d9306-e5c9-4f4a-bc23-764284ac3bfc",
+      "location": "footer",
+      "label": "About Us",
+      "url": "/about",
+      "sort_order": 1,
+      "visible": true,
+      "created_at": "2026-08-11T19:05:10.293486+00:00",
+      "updated_at": "2026-08-11T19:05:10.293486+00:00"
+    },
+    {
+      "id": "e7f6030a-995b-48a4-be96-0596c9232990",
+      "location": "footer",
+      "label": "Our Work",
+      "url": "/our-work",
+      "sort_order": 2,
+      "visible": true,
+      "created_at": "2026-08-11T19:05:10.293486+00:00",
+      "updated_at": "2026-08-11T19:05:10.293486+00:00"
+    },
+    {
+      "id": "7ba54af2-a57e-4ea3-9172-f3e36c6b0f69",
+      "location": "footer",
+      "label": "Blog",
+      "url": "/blog",
+      "sort_order": 3,
+      "visible": true,
+      "created_at": "2026-08-11T19:05:10.293486+00:00",
+      "updated_at": "2026-08-11T19:05:10.293486+00:00"
+    },
+    {
+      "id": "84b7a13a-34b0-4d8a-a7fc-dfeeaf6a03b0",
+      "location": "footer",
+      "label": "Contact",
+      "url": "/contact",
+      "sort_order": 4,
+      "visible": true,
+      "created_at": "2026-08-11T19:05:10.293486+00:00",
+      "updated_at": "2026-08-11T19:05:10.293486+00:00"
+    }
+  ],
+  "site_settings": [
+    {
+      "key": "site_name",
+      "value": "Environmental Hub Uganda",
+      "updated_at": "2026-08-11T19:05:10.308722+00:00"
+    },
+    {
+      "key": "tagline",
+      "value": "Conservation, climate resilience and sustainable development",
+      "updated_at": "2026-08-11T19:05:10.308722+00:00"
+    },
+    {
+      "key": "mission",
+      "value": "To promote environmental conservation, climate resilience and sustainable development through community action, education, research and innovation.",
+      "updated_at": "2026-08-11T19:05:10.308722+00:00"
+    },
+    {
+      "key": "vision",
+      "value": "A sustainable environment for present and future generations.",
+      "updated_at": "2026-08-11T19:05:10.308722+00:00"
+    },
+    {
+      "key": "values",
+      "value": "Community first\nIntegrity\nEvidence-led action\nYouth leadership\nPartnership",
+      "updated_at": "2026-08-11T19:05:10.308722+00:00"
+    },
+    {
+      "key": "email",
+      "value": "info@ehubuganda.org",
+      "updated_at": "2026-08-11T19:05:10.308722+00:00"
+    },
+    {
+      "key": "phone",
+      "value": "",
+      "updated_at": "2026-08-11T19:05:10.308722+00:00"
+    },
+    {
+      "key": "address",
+      "value": "Kampala, Uganda",
+      "updated_at": "2026-08-11T19:05:10.308722+00:00"
+    },
+    {
+      "key": "facebook_url",
+      "value": "",
+      "updated_at": "2026-08-11T19:05:10.308722+00:00"
+    },
+    {
+      "key": "twitter_url",
+      "value": "",
+      "updated_at": "2026-08-11T19:05:10.308722+00:00"
+    },
+    {
+      "key": "linkedin_url",
+      "value": "",
+      "updated_at": "2026-08-11T19:05:10.308722+00:00"
+    }
+  ],
+  "slides": []
+}

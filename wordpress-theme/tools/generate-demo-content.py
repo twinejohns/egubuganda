@@ -8,6 +8,7 @@ All markup is block-editor markup, so every page stays editable in the editor.
 from html import escape
 from pathlib import Path
 from datetime import datetime, timedelta
+import json
 import re
 import sys
 
@@ -751,7 +752,164 @@ PAGES = [
     ("Contact", "contact", contact_page(), 9, ""),
 ]
 
+# ------------------------------------------------- live CMS snapshot overrides
+
+# Maps the CMS page slug (React routes / database) to the WordPress page slug.
+CMS_SLUG_MAP = {
+    "home": "home",
+    "about": "about-us",
+    "our-work": "our-work",
+    "impact": "impact",
+    "team": "team-governance",
+    "get-involved": "get-involved",
+    "resources": "resources",
+    "blog": "blog",
+    "contact": "contact",
+}
+WP_SLUG_MAP = {v: k for k, v in CMS_SLUG_MAP.items()}
+
+SETTINGS = {}
+MENUS = {"header": [], "footer": []}
+
+FALLBACK_IMAGES = ["hero-1.jpg", "hero-2.jpg", "hero-3.jpg"]
+
+
+def _replace_header(content, title, lead):
+    """Swap the page-header <h1> and its intro paragraph with the CMS values."""
+    if title:
+        content = re.sub(
+            r"(<h1[^>]*>)(.*?)(</h1>)",
+            lambda m: m.group(1) + escape(title) + m.group(3),
+            content,
+            count=1,
+            flags=re.S,
+        )
+    if lead:
+        # first paragraph after the h1
+        pos = content.find("</h1>")
+        if pos != -1:
+            head, tail = content[:pos], content[pos:]
+            tail = re.sub(
+                r"(<p[^>]*>)(.*?)(</p>)",
+                lambda m: m.group(1) + escape(lead) + m.group(3),
+                tail,
+                count=1,
+                flags=re.S,
+            )
+            content = head + tail
+    return content
+
+
+def apply_cms_snapshot():
+    """Overlay the live database content on top of the built-in defaults."""
+    global PAGES, POSTS, SETTINGS, MENUS
+    snap_path = Path(__file__).parent / "cms-snapshot.json"
+    if not snap_path.exists():
+        print("no cms-snapshot.json found — using built-in defaults")
+        return
+    snap = json.loads(snap_path.read_text(encoding="utf-8"))
+
+    SETTINGS = {s["key"]: (s.get("value") or "") for s in snap.get("site_settings", [])}
+
+    # ---- pages: titles, leads and SEO descriptions come from the CMS
+    by_wp_slug = {}
+    for row in snap.get("pages", []):
+        wp_slug = CMS_SLUG_MAP.get(row["slug"])
+        if wp_slug:
+            by_wp_slug[wp_slug] = row
+    new_pages = []
+    for title, slug, content, order, tpl in PAGES:
+        row = by_wp_slug.get(slug)
+        if row:
+            title = row.get("title") or title
+            content = _replace_header(content, row.get("title"), row.get("lead"))
+            if row.get("body"):
+                content = content + "\n\n" + markdown_to_blocks(row["body"])
+        new_pages.append((title, slug, content, order, tpl))
+    PAGES = new_pages
+    PAGE_META.update(
+        {
+            slug: (by_wp_slug[slug].get("meta_description") or "")
+            for slug in by_wp_slug
+        }
+    )
+
+    # ---- blog posts straight from the CMS
+    rows = [r for r in snap.get("posts", []) if r.get("published")]
+    rows.sort(key=lambda r: r.get("published_at") or r.get("created_at") or "", reverse=True)
+    if rows:
+        POSTS = []
+        for i, r in enumerate(rows):
+            body = [b.strip() for b in re.split(r"\n\s*\n", r.get("body") or "") if b.strip()]
+            date = (r.get("published_at") or r.get("created_at") or "2026-01-05")[:10]
+            POSTS.append(
+                dict(
+                    slug=r["slug"],
+                    title=r["title"],
+                    tag=r.get("tag") or "News",
+                    date=date,
+                    excerpt=r.get("excerpt") or "",
+                    body=body,
+                    image=FALLBACK_IMAGES[i % len(FALLBACK_IMAGES)],
+                    cover_url=r.get("cover_url") or "",
+                )
+            )
+
+    # ---- menus
+    for loc in ("header", "footer"):
+        items = [
+            m
+            for m in snap.get("menu_items", [])
+            if m.get("location") == loc and m.get("visible", True)
+        ]
+        items.sort(key=lambda m: m.get("sort_order") or 0)
+        MENUS[loc] = [
+            (m["label"], CMS_SLUG_MAP.get((m.get("url") or "/").strip("/"), ""), m.get("url"))
+            for m in items
+        ]
+
+    print(
+        "applied cms snapshot:",
+        len(PAGES),
+        "pages,",
+        len(POSTS),
+        "posts,",
+        {k: len(v) for k, v in MENUS.items()},
+        "menu items",
+    )
+
+
+PAGE_META = {}
+
+
+def markdown_to_blocks(text):
+    """Very small markdown subset -> block markup (matches the CMS editor)."""
+    out, bullets = [], []
+
+    def flush():
+        if bullets:
+            out.append(ul(bullets[:]))
+            bullets.clear()
+
+    for raw in (text or "").split("\n"):
+        line = raw.strip()
+        if not line:
+            flush()
+            continue
+        if line.startswith("## "):
+            flush()
+            out.append(heading_block(line[3:].strip(), 2))
+        elif line.startswith("- "):
+            bullets.append(line[2:].strip())
+        else:
+            flush()
+            out.append(p(escape(line)))
+    flush()
+    return "\n\n".join(out)
+
+
 # ---------------------------------------------------------------- WXR assembly
+
 
 
 def cdata(text):
@@ -808,6 +966,7 @@ def item(
 
 
 def build():
+    apply_cms_snapshot()
     items = []
     pid = 100
     page_ids = {}
@@ -824,15 +983,17 @@ def build():
                 pid,
                 "2026-01-05 09:00:00",
                 menu_order=order,
+                excerpt=PAGE_META.get(slug, ""),
                 meta={"_wp_page_template": "default"},
             )
         )
 
     for post in POSTS:
         pid += 1
+        img = post.get("cover_url") or f"{SITE}{IMG}/{post['image']}"
         content = "\n\n".join(
             [
-                f'<!-- wp:image {{"sizeSlug":"large"}} -->\n<figure class="wp-block-image size-large"><img src="{SITE}{IMG}/{post["image"]}" alt="{escape(post["title"])}"/></figure>\n<!-- /wp:image -->'
+                f'<!-- wp:image {{"sizeSlug":"large"}} -->\n<figure class="wp-block-image size-large"><img src="{img}" alt="{escape(post["title"])}"/></figure>\n<!-- /wp:image -->'
             ]
             + [p(escape(par)) for par in post["body"]]
         )
@@ -851,36 +1012,55 @@ def build():
             )
         )
 
-    # Navigation menu
-    menu_items = []
-    order = 1
-    for title, slug, *_ in PAGES:
-        if slug == "home":
-            continue
-        pid += 1
-        menu_items.append(
-            item(
-                title,
-                f"menu-item-{pid}",
-                "",
-                "nav_menu_item",
-                pid,
-                "2026-01-05 09:00:00",
-                menu_order=order,
-                categories=[("nav_menu", "Primary", "primary")],
-                meta={
+    # Navigation menus (header -> "Primary", footer -> "Footer"), from the CMS
+    def menu_entries(location, term_name, term_slug):
+        entries = MENUS.get(location) or []
+        if not entries:
+            entries = [(t, s, "/" + s) for t, s, *_ in PAGES if s != "home"]
+        out = []
+        order = 1
+        for label, wp_slug, url in entries:
+            nonlocal pid
+            pid += 1
+            if wp_slug and wp_slug in page_ids:
+                meta = {
                     "_menu_item_type": "post_type",
                     "_menu_item_menu_item_parent": "0",
-                    "_menu_item_object_id": page_ids[slug],
+                    "_menu_item_object_id": page_ids[wp_slug],
                     "_menu_item_object": "page",
                     "_menu_item_target": "",
-                    "_menu_item_classes": "a:1:{i:0;s:0:\"\";}",
+                    "_menu_item_classes": 'a:1:{i:0;s:0:"";}',
                     "_menu_item_url": "",
-                },
+                }
+            else:
+                meta = {
+                    "_menu_item_type": "custom",
+                    "_menu_item_menu_item_parent": "0",
+                    "_menu_item_object_id": pid,
+                    "_menu_item_object": "custom",
+                    "_menu_item_target": "",
+                    "_menu_item_classes": 'a:1:{i:0;s:0:"";}',
+                    "_menu_item_url": url or "/",
+                }
+            out.append(
+                item(
+                    label,
+                    f"menu-item-{pid}",
+                    "",
+                    "nav_menu_item",
+                    pid,
+                    "2026-01-05 09:00:00",
+                    menu_order=order,
+                    categories=[("nav_menu", term_name, term_slug)],
+                    meta=meta,
+                )
             )
-        )
-        order += 1
-    items.extend(menu_items)
+            order += 1
+        return out
+
+    items.extend(menu_entries("header", "Primary", "primary"))
+    items.extend(menu_entries("footer", "Footer", "footer"))
+
 
     cats_xml = ""
     seen = set()
@@ -897,7 +1077,10 @@ def build():
     cats_xml += (
         "  <wp:term>\n    <wp:term_id>90</wp:term_id>\n    <wp:term_taxonomy>nav_menu</wp:term_taxonomy>\n"
         f"    <wp:term_slug>primary</wp:term_slug>\n    <wp:term_name>{cdata('Primary')}</wp:term_name>\n  </wp:term>\n"
+        "  <wp:term>\n    <wp:term_id>91</wp:term_id>\n    <wp:term_taxonomy>nav_menu</wp:term_taxonomy>\n"
+        f"    <wp:term_slug>footer</wp:term_slug>\n    <wp:term_name>{cdata('Footer')}</wp:term_name>\n  </wp:term>\n"
     )
+
 
     xml = f"""<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0"
