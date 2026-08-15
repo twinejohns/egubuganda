@@ -1,0 +1,13 @@
+---
+# cPanel Git Version Control deployment file.
+# Replace REPLACE_USERNAME with your cPanel username before cPanel Git deploys.
+# Also verify the npm path matches the Node.js binary on your cPanel host.
+# If your cPanel does not have Node.js support, see the local-build alternative in DEPLOY-CPANEL.md.
+deployment:
+  tasks:
+    - /bin/rm -rf /home/REPLACE_USERNAME/ehub-app
+    - /bin/mkdir -p /home/REPLACE_USERNAME/ehub-app
+    - /bin/cp -R . /home/REPLACE_USERNAME/ehub-app
+    - cd /home/REPLACE_USERNAME/ehub-app
+    - /opt/cpanel/ea-nodejs20/bin/npm install
+    - /opt/cpanel/ea-nodejs20/bin/npm run build:cpanel
