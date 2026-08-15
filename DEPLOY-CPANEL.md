@@ -67,11 +67,11 @@ In cPanel → Git Version Control → click **Deploy** on your repository. This 
 In cPanel → **Setup Node.js App**:
 
 - Application root: `/home/<username>/ehub-app`
-- Application startup file: `server/index.mjs` (inside the build output folder; check `ehub-app/dist` after the first deploy if this path differs)
+- Application startup file: `dist/server/index.mjs`
 - Application URL: your domain
 - Environment variables: add the values from your `.env` file (VITE_SUPABASE_URL, VITE_SUPABASE_ANON_KEY, etc.)
 
-The exact startup file path depends on the Nitro preset. After a successful build, look in `ehub-app/dist/` to find the `.mjs` entry file.
+You do not need to copy anything into `public_html`; the cPanel Node.js application will serve from the app root once it is running.
 
 ## Alternative: build locally and upload manually
 
