@@ -1030,6 +1030,7 @@ def build():
                     "_menu_item_object": "page",
                     "_menu_item_target": "",
                     "_menu_item_classes": 'a:1:{i:0;s:0:"";}',
+                    "_menu_item_xfn": "",
                     "_menu_item_url": "",
                 }
             else:
@@ -1040,6 +1041,7 @@ def build():
                     "_menu_item_object": "custom",
                     "_menu_item_target": "",
                     "_menu_item_classes": 'a:1:{i:0;s:0:"";}',
+                    "_menu_item_xfn": "",
                     "_menu_item_url": url or "/",
                 }
             out.append(
