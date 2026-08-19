@@ -9,5 +9,5 @@ deployment:
     - /bin/mkdir -p /home/ehubugan/ehub-app
     - /bin/cp -R . /home/ehubugan/ehub-app
     - cd /home/ehubugan/ehub-app
-    - /opt/cpanel/ea-nodejs20/bin/npm install
-    - /opt/cpanel/ea-nodejs20/bin/npm run build:cpanel
+    - /home/ehubugan/nodevenv/ehub-app/24/bin/npm install
+    - /home/ehubugan/nodevenv/ehub-app/24/bin//npm run build:cpanel
